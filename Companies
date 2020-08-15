@@ -1,0 +1,801 @@
+| Stage                       	| Segment                          	| Company Name               	| Product                                 	|
+|-----------------------------	|----------------------------------	|----------------------------	|-----------------------------------------	|
+| Dev_Infrastructure          	| Artifact Repository              	| Amazon                     	| Elastic Container Registry              	|
+| Dev_Infrastructure          	| Artifact Repository              	| Canonical                  	| Deb, Snap, and Charm                    	|
+| Dev_Infrastructure          	| Artifact Repository              	| Cloudrepo                  	| Cloudrepo                               	|
+| Dev_Infrastructure          	| Artifact Repository              	| Cloudsmith                 	| Cloudsmith                              	|
+| Dev_infrastructure          	| Artifact Repository              	| Docker                     	| Hub                                     	|
+| Dev_Infrastructure          	| Artifact Repository              	| GitHub                     	| Package Registry                        	|
+| Dev_Infrastructure          	| Artifact Repository              	| GitHub                     	| npm                                     	|
+| Dev_Infrastructure          	| Artifact Repository              	| Gitlab                     	| Repository                              	|
+| Dev_Infrastructure          	| Artifact Repository              	| Inedo                      	| ProGet                                  	|
+| Dev_Infrastructure          	| Artifact Repository              	| JFrog                      	| Artifactory                             	|
+| Dev_Infrastructure          	| Artifact Repository              	| MyGet                      	| MyGet                                   	|
+| Dev_Infrastructure          	| Artifact Repository              	| Scaleway                   	| Scaleway                                	|
+| Dev_Infrastructure          	| Artifact Repository              	| Skypack.dev                	| Skypack.dev                             	|
+| Dev_Infrastructure          	| Artifact Repository              	| Sonatype                   	| Nexus                                   	|
+| Dev_Infrastructure          	| Build Mgmt.                      	| Amazon                     	| AWS CodeBuild                           	|
+| Dev_Infrastructure          	| Build Mgmt.                      	| Cloudbees                  	| Electric Cloud                          	|
+| Dev_Infrastructure          	| Build Mgmt.                      	| Compuware                  	| ISPW                                    	|
+| Dev_Infrastructure          	| Build Mgmt.                      	| Gradle                     	| Gradle                                  	|
+| Dev_Infrastructure          	| Build Mgmt.                      	| HashiCorp                  	| Vagrant                                 	|
+| Dev_Infrastructure          	| Build Mgmt.                      	| Incredibuild               	| Incredibuild                            	|
+| Dev_Infrastructure          	| Build Mgmt.                      	| OpenMake                   	| Meister                                 	|
+| Dev_Infrastructure          	| Build Mgmt.                      	| Perforce                   	| Helix ALM / Helix RM                    	|
+| Dev_Infrastructure          	| Build Mgmt.                      	| Perforce                   	| Akana                                   	|
+| Dev_Infrastructure          	| Build Mgmt.                      	| TimeSys                    	| Factory                                 	|
+| Dev_Infrastructure          	| CD                               	| Armory                     	| Armory                                  	|
+| Dev_Infrastructure          	| CD                               	| CA Technologies            	| Continuous Delivery                     	|
+| Dev_Infrastructure          	| CD                               	| Cloud 66                   	| Cloud 66 Skycap                         	|
+| Dev_Infrastructure          	| CD                               	| CloudBees                  	| Core                                    	|
+| Dev_Infrastructure          	| CD                               	| Cloudbees                  	| Flow                                    	|
+| Dev_Infrastructure          	| CD                               	| Cloudbees                  	| Rollout                                 	|
+| Dev_Infrastructure          	| CD                               	| Datical                    	| Datical                                 	|
+| Dev_Infrastructure          	| CD                               	| DBMaestro                  	| DBMaestro                               	|
+| Dev_Infrastructure          	| CD                               	| Harness                    	| Harness                                 	|
+| Dev_Infrastructure          	| CD                               	| Humanitec                  	| Humanitec                               	|
+| Dev_Infrastructure          	| CD                               	| IBM                        	| UrbanCode Deploy                        	|
+| Dev_Infrastructure          	| CD                               	| Kontain                    	| Kontain                                 	|
+| Dev_Infrastructure          	| CD                               	| LMC Software Solutions     	| ETSC                                    	|
+| Dev_Infrastructure          	| CD                               	| Octopus Deploy             	| Octopus Deploy                          	|
+| Dev_Infrastructure          	| CD                               	| OpsMX                      	| Open Enterprise Spinnaker               	|
+| Dev_Infrastructure          	| CD                               	| Pivotal                    	| Spinnaker                               	|
+| Dev_Infrastructure          	| CD                               	| Puppet                     	| Nebula                                  	|
+| Dev_Infrastructure          	| CD                               	| Vamp.io                    	| Vamp.io                                 	|
+| Dev_Infrastructure          	| CD                               	| Verica                     	| Verica                                  	|
+| Dev_Infrastructure          	| CI                               	| Amazon                     	| AWS CodeDeploy                          	|
+| Dev_Infrastructure          	| CI                               	| Amazon                     	| AWS CodePipeline                        	|
+| Dev_Infrastructure          	| CI                               	| Appveyor Systems           	| Appveyor                                	|
+| Dev_Infrastructure          	| CI                               	| Atlassian                  	| Bamboo                                  	|
+| Dev_Infrastructure          	| CI                               	| Bitrise                    	| Bitrise                                 	|
+| Dev_Infrastructure          	| CI                               	| Buildkite                  	| Buildkite                               	|
+| Dev_Infrastructure          	| CI                               	| Calculi                    	| GuardRails                              	|
+| Dev_Infrastructure          	| CI                               	| CircleCI                   	| CircleCI                                	|
+| Dev_Infrastructure          	| CI                               	| Clarive                    	| Clarive                                 	|
+| Dev_Infrastructure          	| CI                               	| Cloudbees                  	| Accelerator                             	|
+| Dev_Infrastructure          	| CI                               	| Cloudbees                  	| Codeship                                	|
+| Dev_Infrastructure          	| CI                               	| Cloudbees                  	| Jenkins                                 	|
+| Dev_Infrastructure          	| CI                               	| Codefresh                  	| Codefresh                               	|
+| Dev_Infrastructure          	| CI                               	| Cycloid                    	| Cycloid                                 	|
+| Dev_Infrastructure          	| CI                               	| Data Kitchen               	| Data Kitchen                            	|
+| Dev_Infrastructure          	| CI                               	| Dataspine                  	| Dataspine                               	|
+| Dev_Infrastructure          	| CI                               	| Delphix                    	| Delphix                                 	|
+| Dev_Infrastructure          	| CI                               	| Dotscience                 	| Dotscience                              	|
+| Dev_Infrastructure          	| CI                               	| Drone.io                   	| Drone                                   	|
+| Dev_Infrastructure          	| CI                               	| Google                     	| Cloud Build                             	|
+| Dev_Infrastructure          	| CI                               	| JetBrains                  	| TeamCity                                	|
+| Dev_Infrastructure          	| CI                               	| JFrog                      	| Pipelines                               	|
+| Dev_Infrastructure          	| CI                               	| Kaholo                     	| Kaholo                                  	|
+| Dev_Infrastructure          	| CI                               	| Launchable                 	| Launchable                              	|
+| Dev_Infrastructure          	| CI                               	| LayerCI                    	| LayerCI                                 	|
+| Dev_Infrastructure          	| CI                               	| Micro Focus                	| Deployment Automation                   	|
+| Dev_Infrastructure          	| CI                               	| Micro Focus                	| Mainframe Development                   	|
+| Dev_Infrastructure          	| CI                               	| Microsoft                  	| Azure DevOps                            	|
+| Dev_Infrastructure          	| CI                               	| Pivotal                    	| Concourse                               	|
+| Dev_Infrastructure          	| CI                               	| Reploy                     	| Reploy                                  	|
+| Dev_Infrastructure          	| CI                               	| SemaphoreCI                	| Semaphore                               	|
+| Dev_Infrastructure          	| CI                               	| Shipyard.build             	| Shipyard.buil                           	|
+| Dev_Infrastructure          	| CI                               	| TravisCI                   	| TravisCI                                	|
+| Dev_Infrastructure          	| CI                               	| Veertu                     	| Anka                                    	|
+| Dev_Infrastructure          	| CI                               	| XebiaLabs                  	| CruiseControl                           	|
+| Dev_Infrastructure          	| Code and Application Security    	| 42Crunch                   	| 42Crunch                                	|
+| Dev_Infrastructure          	| Code and Application Security    	| Alcide                     	| Alcide                                  	|
+| Dev_Infrastructure          	| Code and Application Security    	| Amazon                     	| CodeGuru                                	|
+| Dev_Infrastructure          	| Code and Application Security    	| Anchore                    	| Anchore                                 	|
+| Dev_Infrastructure          	| Code and Application Security    	| BluBracket                 	| CodeInsights                            	|
+| Dev_Infrastructure          	| Code and Application Security    	| Canvass Labs               	| Canvass Labs                            	|
+| Dev_Infrastructure          	| Code and Application Security    	| Cast Software              	| Highlight                               	|
+| Dev_Infrastructure          	| Code and Application Security    	| Checkmarx                  	| Security Platform                       	|
+| Dev_Infrastructure          	| Code and Application Security    	| Checkpoint                 	| Protego                                 	|
+| Dev_Infrastructure          	| Code and Application Security    	| Chef Software              	| Chef InSpec                             	|
+| Dev_Infrastructure          	| Code and Application Security    	| Codacy                     	| Codacy                                  	|
+| Dev_Infrastructure          	| Code and Application Security    	| Code Dx                    	| Code Dx                                 	|
+| Dev_Infrastructure          	| Code and Application Security    	| Code Grip                  	| Code Grip                               	|
+| Dev_Infrastructure          	| Code and Application Security    	| Code Intelligence          	| Code Intelligence                       	|
+| Dev_Infrastructure          	| Code and Application Security    	| Codecov.io                 	| Codecov.io                              	|
+| Dev_Infrastructure          	| Code and Application Security    	| Codescene                  	| Codescene                               	|
+| Dev_Infrastructure          	| Code and Application Security    	| Codescoop                  	| Codescoop                               	|
+| Dev_Infrastructure          	| Code and Application Security    	| Compuware                  	| Topaz                                   	|
+| Dev_Infrastructure          	| Code and Application Security    	| Contrast Security          	| Contrast Security                       	|
+| Dev_Infrastructure          	| Code and Application Security    	| CyberArk                   	| DevOps                                  	|
+| Dev_Infrastructure          	| Code and Application Security    	| datree.io                  	| datree.io                               	|
+| Dev_Infrastructure          	| Code and Application Security    	| Deepcode.ai                	| Deepcode.ai                             	|
+| Dev_Infrastructure          	| Code and Application Security    	| Deepsource.io              	| Deepsource.io                           	|
+| Dev_Infrastructure          	| Code and Application Security    	| Embold.io                  	| Embold.io                               	|
+| Dev_Infrastructure          	| Code and Application Security    	| Flexera Software           	| Flexnet Licensing                       	|
+| Dev_Infrastructure          	| Code and Application Security    	| Flexera Software           	| Flexnet Code Insight                    	|
+| Dev_Infrastructure          	| Code and Application Security    	| Flexera Software           	| Software Composition Analysis           	|
+| Dev_Infrastructure          	| Code and Application Security    	| FOSSA                      	| FOSSA                                   	|
+| Dev_Infrastructure          	| Code and Application Security    	| Froglogic                  	| Coco                                    	|
+| Dev_Infrastructure          	| Code and Application Security    	| Fuzzbuzz                   	| Fuzzbuzz                                	|
+| Dev_Infrastructure          	| Code and Application Security    	| FX Labs                    	| Cybersecuriti.io                        	|
+| Dev_Infrastructure          	| Code and Application Security    	| Github                     	| Semmle                                  	|
+| Dev_Infrastructure          	| Code and Application Security    	| Gitlab                     	| Gitlab                                  	|
+| Dev_Infrastructure          	| Code and Application Security    	| Grammatech                 	| CodeSonar                               	|
+| Dev_Infrastructure          	| Code and Application Security    	| IBM                        	| Security Scan                           	|
+| Dev_Infrastructure          	| Code and Application Security    	| Insignary                  	| Clarity                                 	|
+| Dev_Infrastructure          	| Code and Application Security    	| Kiuwan                     	| Code Analysis                           	|
+| Dev_Infrastructure          	| Code and Application Security    	| LDRA                       	| LDRA                                    	|
+| Dev_Infrastructure          	| Code and Application Security    	| Meterian                   	| Meterian                                	|
+| Dev_Infrastructure          	| Code and Application Security    	| Micro Focus                	| Fortify SCA                             	|
+| Dev_Infrastructure          	| Code and Application Security    	| Muse.dev                   	| Muse.dev                                	|
+| Dev_Infrastructure          	| Code and Application Security    	| NeuraLegion                	| NeuraLegion                             	|
+| Dev_Infrastructure          	| Code and Application Security    	| NowSecure                  	| NowSecure                               	|
+| Dev_Infrastructure          	| Code and Application Security    	| Parasoft                   	| Development Testing                     	|
+| Dev_Infrastructure          	| Code and Application Security    	| Perforce                   	| Helix QAC                               	|
+| Dev_Infrastructure          	| Code and Application Security    	| Perforce                   	| Klocwork                                	|
+| Dev_Infrastructure          	| Code and Application Security    	| Portswigger                	| Portswigger                             	|
+| Dev_Infrastructure          	| Code and Application Security    	| PullRequest                	| PullRequest                             	|
+| Dev_Infrastructure          	| Code and Application Security    	| Rax.sh                     	| Mantis                                  	|
+| Dev_Infrastructure          	| Code and Application Security    	| Refactr.it                 	| Refactr.it                              	|
+| Dev_Infrastructure          	| Code and Application Security    	| Snyk                       	| Snyk                                    	|
+| Dev_Infrastructure          	| Code and Application Security    	| Software Secured           	| Software Secured                        	|
+| Dev_Infrastructure          	| Code and Application Security    	| Sonarsource                	| SonarQube                               	|
+| Dev_Infrastructure          	| Code and Application Security    	| Sonatype                   	| VÃ¶r Security                           	|
+| Dev_Infrastructure          	| Code and Application Security    	| Sqreen                     	| Sqreen                                  	|
+| Dev_Infrastructure          	| Code and Application Security    	| StackHawk                  	| StackHawk                               	|
+| Dev_Infrastructure          	| Code and Application Security    	| StackRox                   	| StackRox                                	|
+| Dev_Infrastructure          	| Code and Application Security    	| Synopsys                   	| All App Sec Prods                       	|
+| Dev_Infrastructure          	| Code and Application Security    	| Synopsys                   	| Black Duck                              	|
+| Dev_Infrastructure          	| Code and Application Security    	| Threat Stack               	| Threat Stack                            	|
+| Dev_Infrastructure          	| Code and Application Security    	| Traceable.ai               	| Traceable.ai                            	|
+| Dev_Infrastructure          	| Code and Application Security    	| Veracode                   	| All App Sec Prods                       	|
+| Dev_Infrastructure          	| Code and Application Security    	| VersionEye                 	| VersionEye                              	|
+| Dev_Infrastructure          	| Code and Application Security    	| Whitehat                   	| Whitehat                                	|
+| Dev_Infrastructure          	| Code and Application Security    	| WhiteSource                	| WhiteSource                             	|
+| Dev_Infrastructure          	| Config + GitOps                  	| Agile Stacks               	| Agile Stacks DevOps Automation Platform 	|
+| Dev_Infrastructure          	| Config + GitOps                  	| Amazon                     	| AWS CloudFormation                      	|
+| Dev_Infrastructure          	| Config + GitOps                  	| Architect.io               	| Architect.io                            	|
+| Dev_Infrastructure          	| Config + GitOps                  	| Buddy.works                	| Buddy                                   	|
+| Dev_Infrastructure          	| Config + GitOps                  	| CFEngine                   	| CFEngine                                	|
+| Dev_Infrastructure          	| Config + GitOps                  	| Chef Software              	| Infra                                   	|
+| Dev_Infrastructure          	| Config + GitOps                  	| Chef Software              	| Habitat                                 	|
+| Dev_Infrastructure          	| Config + GitOps                  	| Chef Software              	| Automate                                	|
+| Dev_Infrastructure          	| Config + GitOps                  	| CloudSkiff                 	| CloudSkiff                              	|
+| Dev_Infrastructure          	| Config + GitOps                  	| ConfigCat                  	| ConfigCat                               	|
+| Dev_Infrastructure          	| Config + GitOps                  	| Datawire                   	| Ambassador                              	|
+| Dev_Infrastructure          	| Config + GitOps                  	| DeployHub                  	| DeployHub                               	|
+| Dev_Infrastructure          	| Config + GitOps                  	| Docker                     	| Compose                                 	|
+| Dev_Infrastructure          	| Config + GitOps                  	| HashiCorp                  	| Packer                                  	|
+| Dev_Infrastructure          	| Config + GitOps                  	| HashiCorp                  	| Terraform                               	|
+| Dev_Infrastructure          	| Config + GitOps                  	| HashiCorp                  	| Vault                                   	|
+| Dev_Infrastructure          	| Config + GitOps                  	| JFrog                      	| Xray                                    	|
+| Dev_Infrastructure          	| Config + GitOps                  	| Morpheus Data              	| Morpheus                                	|
+| Dev_Infrastructure          	| Config + GitOps                  	| PerfectSense               	| Gyro                                    	|
+| Dev_Infrastructure          	| Config + GitOps                  	| Pulumi                     	| Pulumi                                  	|
+| Dev_Infrastructure          	| Config + GitOps                  	| Puppet                     	| Puppet Enterprise                       	|
+| Dev_Infrastructure          	| Config + GitOps                  	| RedHat                     	| Ansible                                 	|
+| Dev_Infrastructure          	| Config + GitOps                  	| Replicated                 	| Ship                                    	|
+| Dev_Infrastructure          	| Config + GitOps                  	| SaltStack                  	| SaltStack Enterprise                    	|
+| Dev_Infrastructure          	| Config + GitOps                  	| ServiceNow                 	| Change Automation                       	|
+| Dev_Infrastructure          	| Config + GitOps                  	| ServiceNow                 	| IntegrationHub                          	|
+| Dev_Infrastructure          	| Config + GitOps                  	| Sweagle                    	| Sweagle                                 	|
+| Dev_Infrastructure          	| Config + GitOps                  	| Total Cloud                	| Total Cloud                             	|
+| Dev_Infrastructure          	| Config + GitOps                  	| Venafi                     	| Venafi                                  	|
+| Dev_Infrastructure          	| Config + GitOps                  	| VMWare                     	| Bitnami                                 	|
+| Dev_Infrastructure          	| Config + GitOps                  	| Weaveworks                 	| Weaveworks                              	|
+| Dev_Infrastructure          	| Debugging                        	| Alibaba                    	| Chaosblade                              	|
+| Dev_Infrastructure          	| Debugging                        	| Appdynamics                	| Appdynamics                             	|
+| Dev_Infrastructure          	| Debugging                        	| Bugherd                    	| Bugherd                                 	|
+| Dev_Infrastructure          	| Debugging                        	| Bugsnag                    	| Bugsnag                                 	|
+| Dev_Infrastructure          	| Debugging                        	| ChaosIQ                    	| Chaos Toolkit                           	|
+| Dev_Infrastructure          	| Debugging                        	| Dashbird                   	| Dashbird                                	|
+| Dev_Infrastructure          	| Debugging                        	| Dynatrace                  	| Dynatrace                               	|
+| Dev_Infrastructure          	| Debugging                        	| Epsagon                    	| Epsagon                                 	|
+| Dev_Infrastructure          	| Debugging                        	| GuardSquare                	| GuardSquare                             	|
+| Dev_Infrastructure          	| Debugging                        	| Honeybadger                	| Honeybadger                             	|
+| Dev_Infrastructure          	| Debugging                        	| Honeycomb                  	| Honeycomb                               	|
+| Dev_Infrastructure          	| Debugging                        	| Instabug                   	| Instabug                                	|
+| Dev_Infrastructure          	| Debugging                        	| Lightrun                   	| Lightrun                                	|
+| Dev_Infrastructure          	| Debugging                        	| LightStep                  	| LightStep                               	|
+| Dev_Infrastructure          	| Debugging                        	| LogRocket                  	| LogRocket                               	|
+| Dev_Infrastructure          	| Debugging                        	| Lumigo                     	| Lumigo                                  	|
+| Dev_Infrastructure          	| Debugging                        	| Memfault                   	| memfault                                	|
+| Dev_Infrastructure          	| Debugging                        	| New Relic                  	| Telemetry                               	|
+| Dev_Infrastructure          	| Debugging                        	| Okteto                     	| Okteto                                  	|
+| Dev_Infrastructure          	| Debugging                        	| Perforce                   	| TotalView                               	|
+| Dev_Infrastructure          	| Debugging                        	| Raygun                     	| Raygun                                  	|
+| Dev_Infrastructure          	| Debugging                        	| Rollbar                    	| Samebug                                 	|
+| Dev_Infrastructure          	| Debugging                        	| Rookout                    	| Rookout                                 	|
+| Dev_Infrastructure          	| Debugging                        	| Sentry                     	| Sentry                                  	|
+| Dev_Infrastructure          	| Debugging                        	| Thundra                    	| Thundra                                 	|
+| Dev_Infrastructure          	| Debugging                        	| TimeSys                    	| BFC                                     	|
+| Dev_Infrastructure          	| Debugging                        	| Undo                       	| Undo                                    	|
+| Dev_Infrastructure          	| SRE                              	| Atlassian                  	| Jira Service Desk                       	|
+| Dev_Infrastructure          	| SRE                              	| Atlassian                  	| Ops Genie                               	|
+| Dev_Infrastructure          	| SRE                              	| Atlassian                  	| Status Page                             	|
+| Dev_Infrastructure          	| SRE                              	| Atlassian                  	| OpsGenie                                	|
+| Dev_Infrastructure          	| SRE                              	| Blue Matador               	| Blue Matador                            	|
+| Dev_Infrastructure          	| SRE                              	| Bullet Train               	| Bullet Train                            	|
+| Dev_Infrastructure          	| SRE                              	| ChaosIQ                    	| ChaosIQ                                 	|
+| Dev_Infrastructure          	| SRE                              	| Steadybit                  	| Steadybit                               	|
+| Dev_Infrastructure          	| SRE                              	| Grafana Labs               	| Grafana Loki                            	|
+| Dev_Infrastructure          	| SRE                              	| Pagerduty                  	| Pagerduty                               	|
+| Dev_Infrastructure          	| SRE                              	| Puppet                     	| Remediate                               	|
+| Dev_Infrastructure          	| SRE                              	| Squadcast                  	| Squadcast                               	|
+| Dev_Infrastructure          	| SRE                              	| StatusCast                 	| StatusCast                              	|
+| Dev_Infrastructure          	| SRE                              	| Tranposit                  	| Tranposit                               	|
+| Dev_Infrastructure          	| SRE                              	| YetiCloud                  	| YetiCloud                               	|
+| Dev_Infrastructure          	| Test Automation - API            	| APIFortress                	| APIFortress                             	|
+| Dev_Infrastructure          	| Test Automation - API            	| Beeceptor                  	| Beeceptor                               	|
+| Dev_Infrastructure          	| Test Automation - API            	| Mocklab                    	| Wiremock                                	|
+| Dev_Infrastructure          	| Test Automation - API            	| Paw                        	| Paw                                     	|
+| Dev_Infrastructure          	| Test Automation - API            	| Postman                    	| Postman                                 	|
+| Dev_Infrastructure          	| Test Automation - API            	| SmartBear                  	| ReadyAPI                                	|
+| Dev_Infrastructure          	| Test Automation - API            	| SmartBear                  	| SoapUI Pro                              	|
+| Dev_Infrastructure          	| Test Automation - API            	| SmartBear                  	| SwaggerHub                              	|
+| Dev_Infrastructure          	| Test Automation - API            	| SmartBear                  	| ServiceV Pro                            	|
+| Dev_Infrastructure          	| Test Automation - API            	| Speedscale                 	| Speedscale                              	|
+| Dev_Infrastructure          	| Test Automation - API            	| Talend                     	| Restlet                                 	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| Asayer                     	| Asayer                                  	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| Browserling                	| Browserling                             	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| Browserstack               	| Browserstack                            	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| Cypress.io                 	| Cypress.io                              	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| experitest                 	| experitest                              	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| Ghost Inspector            	| Ghost Inspector                         	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| Headspin                   	| Headspin                                	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| Kobiton                    	| Kobiton                                 	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| Mesmer Eyes                	| mesmer                                  	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| Mobile Labs                	| Gigafox                                 	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| MoQuality                  	| MoQuality                               	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| Perfecto                   	| Perfecto                                	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| Perforce                   	| Testcraft                               	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| Remote Test Kit            	| Remote Test Kit                         	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| Sauce Labs                 	| Sauce Labs                              	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| SmartBear                  	| CrossBrowser Testing                    	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| SmartBear                  	| BitBar                                  	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| sofy.ai                    	| sofy.ai                                 	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| Synopsys                   	| Defensics Fuzzing                       	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| Test Fairy                 	| Test Fairy                              	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| Testcraft                  	| Testcraft                               	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| Testlio                    	| Testlio                                 	|
+| Dev_Infrastructure          	| Test Automation - Browser/Device 	| Waldo.io                   	| Waldo.io                                	|
+| Dev_Infrastructure          	| Test Automation - Crowd          	| Applause                   	| Applause                                	|
+| Dev_Infrastructure          	| Test Automation - Crowd          	| crowdsourced testing       	| crowdsourced testing                    	|
+| Dev_Infrastructure          	| Test Automation - Crowd          	| crowdsprint                	| crowdsprint                             	|
+| Dev_Infrastructure          	| Test Automation - Crowd          	| Digivante Solutions        	| bugfinders                              	|
+| Dev_Infrastructure          	| Test Automation - Crowd          	| global app testing         	| global app testing                      	|
+| Dev_Infrastructure          	| Test Automation - Crowd          	| Mycrowd                    	| Mycrowd                                 	|
+| Dev_Infrastructure          	| Test Automation - Crowd          	| RainforestQA               	| RainforestQA                            	|
+| Dev_Infrastructure          	| Test Automation - Crowd          	| testbirds                  	| testbirds                               	|
+| Dev_Infrastructure          	| Test Automation - Crowd          	| Uncoverbugs                	| Uncoverbugs                             	|
+| Dev_Infrastructure          	| Test Automation - Data           	| GenRocket                  	| GenRocket TDG                           	|
+| Dev_Infrastructure          	| Test Automation - Data           	| Idera                      	| Gurock                                  	|
+| Dev_Infrastructure          	| Test Automation - Functional     	| applitools                 	| applitools                              	|
+| Dev_Infrastructure          	| Test Automation - Functional     	| AutonomIQ                  	| AutonomIQ                               	|
+| Dev_Infrastructure          	| Test Automation - Functional     	| Codeception                	| Codeception                             	|
+| Dev_Infrastructure          	| Test Automation - Functional     	| Froglogic                  	| Squish                                  	|
+| Dev_Infrastructure          	| Test Automation - Functional     	| Micro Focus                	| UFT                                     	|
+| Dev_Infrastructure          	| Test Automation - Functional     	| Panaya                     	| Panaya                                  	|
+| Dev_Infrastructure          	| Test Automation - Functional     	| Provar                     	| Provar                                  	|
+| Dev_Infrastructure          	| Test Automation - Functional     	| Smartbear                  	| Cucumber                                	|
+| Dev_Infrastructure          	| Test Automation - Functional     	| SmartBear                  	| TestComplete                            	|
+| Dev_Infrastructure          	| Test Automation - Functional     	| Smartbear                  	| Cucumber                                	|
+| Dev_Infrastructure          	| Test Automation - Functional     	| TimeSys                    	| TAS                                     	|
+| Dev_Infrastructure          	| Test Automation - Functional     	| Tricentis                  	| TOSCA                                   	|
+| Dev_Infrastructure          	| Test Automation - Functional     	| Turnkey Solutions          	| cFactory                                	|
+| Dev_Infrastructure          	| Test Automation - Functional     	| Walrus.ai                  	| Walrus.ai                               	|
+| Dev_Infrastructure          	| Test Automation - Functional     	| Worksoft                   	| Worksoft                                	|
+| Dev_Infrastructure          	| Test Automation - Penetration    	| Cobalt.io                  	| Cobalt.io                               	|
+| Dev_Infrastructure          	| Test Automation - Penetration    	| Gremlin                    	| Gremlin                                 	|
+| Dev_Infrastructure          	| Test Automation - Perf           	| Apptim                     	| Apptim                                  	|
+| Dev_Infrastructure          	| Test Automation - Perf           	| Artillery.io               	| Artillery.io                            	|
+| Dev_Infrastructure          	| Test Automation - Perf           	| Blackfire                  	| Blackfire                               	|
+| Dev_Infrastructure          	| Test Automation - Perf           	| Datadog                    	| Undefined Labs                          	|
+| Dev_Infrastructure          	| Test Automation - Perf           	| Gatling                    	| Gatling                                 	|
+| Dev_Infrastructure          	| Test Automation - Perf           	| Micro Focus                	| LoadRunner                              	|
+| Dev_Infrastructure          	| Test Automation - Perf           	| Neotys                     	| NeoLoad                                 	|
+| Dev_Infrastructure          	| Test Automation - Perf           	| OctoPerf                   	| Octoperf                                	|
+| Dev_Infrastructure          	| Test Automation - Perf           	| Radview                    	| Radview                                 	|
+| Dev_Infrastructure          	| Test Automation - Perf           	| Sendgrid                   	| loader.io                               	|
+| Dev_Infrastructure          	| Test Automation - Perf           	| SmartBear                  	| LoadUI Pro                              	|
+| Dev_Infrastructure          	| Test Automation - Perf           	| SmartBear                  	| LoadNinja                               	|
+| Dev_Infrastructure          	| Test Automation - Perf           	| StormForger                	| StormForger                             	|
+| Dev_Infrastructure          	| Test Automation - Perf           	| Tricentis                  	| Flood.io                                	|
+| Dev_Infrastructure          	| Test Automation - Poly           	| Appvance.ai                	| Appvance.ai                             	|
+| Dev_Infrastructure          	| Test Automation - Poly           	| CA Technologies            	| Continuous Testing                      	|
+| Dev_Infrastructure          	| Test Automation - Poly           	| ConformIQ                  	| Automatiq                               	|
+| Dev_Infrastructure          	| Test Automation - Poly           	| Curiosity Software Ireland 	| Curiosity Software Ireland              	|
+| Dev_Infrastructure          	| Test Automation - Poly           	| Eggplant                   	| Testplant                               	|
+| Dev_Infrastructure          	| Test Automation - Poly           	| eureQa                     	| eureQa                                  	|
+| Dev_Infrastructure          	| Test Automation - Poly           	| Functionize                	| Functionize                             	|
+| Dev_Infrastructure          	| Test Automation - Poly           	| Idera                      	| Ranorex                                 	|
+| Dev_Infrastructure          	| Test Automation - Poly           	| Katalon                    	| Katalon                                 	|
+| Dev_Infrastructure          	| Test Automation - Poly           	| Mabl                       	| Mabl                                    	|
+| Dev_Infrastructure          	| Test Automation - Poly           	| Original Software          	| Test Drive                              	|
+| Dev_Infrastructure          	| Test Automation - Poly           	| Parasoft                   	| Functional Testing                      	|
+| Dev_Infrastructure          	| Test Automation - Poly           	| Segron                     	| Telco Test Automation                   	|
+| Dev_Infrastructure          	| Test Automation - Poly           	| Telerik                    	| Test Studio                             	|
+| Dev_Infrastructure          	| Test Automation - Poly           	| Test.AI                    	| Test.AI                                 	|
+| Dev_Infrastructure          	| Test Automation - Poly           	| Testim                     	| testim                                  	|
+| Dev_Infrastructure          	| Test Automation - Poly           	| TestingWhiz                	| TestingWhiz                             	|
+| Dev_Infrastructure          	| Test Automation - Poly           	| Zap Technologies           	| Zaptest                                 	|
+| Dev_Infrastructure          	| Test Automation - Test Case Mgmt 	| Inflectra                  	| Inflectra                               	|
+| Dev_Infrastructure          	| Test Automation - Test Case Mgmt 	| Kualitee                   	| Kualitee                                	|
+| Dev_Infrastructure          	| Test Automation - Test Case Mgmt 	| MelioRa Testlab            	| MelioRa Testlab                         	|
+| Dev_Infrastructure          	| Test Automation - Test Case Mgmt 	| Micro Focus                	| ALM                                     	|
+| Dev_Infrastructure          	| Test Automation - Test Case Mgmt 	| Micro Focus                	| Silk Central                            	|
+| Dev_Infrastructure          	| Test Automation - Test Case Mgmt 	| Microsoft                  	| Test Manager                            	|
+| Dev_Infrastructure          	| Test Automation - Test Case Mgmt 	| Perforce                   	| Helix ALM / Helix TCM                   	|
+| Dev_Infrastructure          	| Test Automation - Test Case Mgmt 	| Plutora                    	| Plutora                                 	|
+| Dev_Infrastructure          	| Test Automation - Test Case Mgmt 	| PractiTest                 	| PractiTest                              	|
+| Dev_Infrastructure          	| Test Automation - Test Case Mgmt 	| QASymphony                 	| QTest Manager                           	|
+| Dev_Infrastructure          	| Test Automation - Test Case Mgmt 	| QMetry                     	| QMetry                                  	|
+| Dev_Infrastructure          	| Test Automation - Test Case Mgmt 	| Sealights                  	| Sealights                               	|
+| Dev_Infrastructure          	| Test Automation - Test Case Mgmt 	| SmartBear                  	| Zephyr                                  	|
+| Dev_Infrastructure          	| Test Automation - Test Case Mgmt 	| SmartBear                  	| Collaborator                            	|
+| Dev_Infrastructure          	| Test Automation - Test Case Mgmt 	| Testcollab                 	| Testcollab                              	|
+| Dev_Infrastructure          	| Test Automation - Test Case Mgmt 	| TestLodge                  	| TestLodge                               	|
+| Dev_Infrastructure          	| Test Automation - Test Case Mgmt 	| Tricentis                  	| QTest                                   	|
+| Dev_Infrastructure          	| Test Automation - Unit           	| Diffblue                   	| Cover                                   	|
+| Dev_Infrastructure          	| Test Automation - Unit           	| Embunit                    	| Embunit                                 	|
+| Dev_Infrastructure          	| Test Automation - Unit           	| Ponicode                   	| Ponicode                                	|
+| Dev_Infrastructure          	| Test Automation - Unit           	| QA Systems                 	| QA Systems                              	|
+| Dev_Infrastructure          	| Test Automation - Unit           	| SmartBear                  	| TestLeft                                	|
+| Dev_Infrastructure          	| Test Automation - Unit           	| Up9                        	| Up9                                     	|
+| Dev_Infrastructure          	| Version Control                  	| Abstract                   	| Abstract                                	|
+| Dev_Infrastructure          	| Version Control                  	| Explorium                  	| Explorium                               	|
+| Dev_Infrastructure          	| Version Control                  	| Github                     	| GitHub                                  	|
+| Dev_Infrastructure          	| Version Control                  	| GitLab                     	| Gitlab                                  	|
+| Dev_Infrastructure          	| Version Control                  	| Gretel                     	| Gretel                                  	|
+| Dev_Infrastructure          	| Version Control                  	| Microsoft                  	| VSTS                                    	|
+| Dev_Infrastructure          	| Version Control                  	| Perforce                   	| Helix Core                              	|
+| Dev_Infrastructure          	| Version Control                  	| Sourcetree                 	| Sourcetree                              	|
+| Dev_Platforms               	| APIs for Apps                    	| Ably                       	| Ably                                    	|
+| Dev_Platforms               	| APIs for Apps                    	| Accenture                  	| Reactive Interaction Gateway            	|
+| Dev_Platforms               	| APIs for Apps                    	| Algolia                    	| Search API                              	|
+| Dev_Platforms               	| APIs for Apps                    	| Alpaca                     	| Alpaca                                  	|
+| Dev_Platforms               	| APIs for Apps                    	| Api.video                  	| Api.video                               	|
+| Dev_Platforms               	| APIs for Apps                    	| Auth0                      	| Auth0                                   	|
+| Dev_Platforms               	| APIs for Apps                    	| Base API                   	| Base API                                	|
+| Dev_Platforms               	| APIs for Apps                    	| Daily.co                   	| Daily.co                                	|
+| Dev_Platforms               	| APIs for Apps                    	| Fixer                      	| Fixer                                   	|
+| Dev_Platforms               	| APIs for Apps                    	| Formik                     	| Formik                                  	|
+| Dev_Platforms               	| APIs for Apps                    	| GetStream                  	| GetStream                               	|
+| Dev_Platforms               	| APIs for Apps                    	| Lob                        	| Print and Mail                          	|
+| Dev_Platforms               	| APIs for Apps                    	| Mapbox                     	| Mapbox                                  	|
+| Dev_Platforms               	| APIs for Apps                    	| Mia-Platform               	| Mia-Platform                            	|
+| Dev_Platforms               	| APIs for Apps                    	| Mycrowd QA                 	| Mux                                     	|
+| Dev_Platforms               	| APIs for Apps                    	| Opencell                   	| Opencell                                	|
+| Dev_Platforms               	| APIs for Apps                    	| Opennode                   	| Opennode                                	|
+| Dev_Platforms               	| APIs for Apps                    	| Persona                    	| Persona                                 	|
+| Dev_Platforms               	| APIs for Apps                    	| Plivo                      	| Plivo                                   	|
+| Dev_Platforms               	| APIs for Apps                    	| Progress Software          	| NativeChat                              	|
+| Dev_Platforms               	| APIs for Apps                    	| PubNub                     	| PubNub                                  	|
+| Dev_Platforms               	| APIs for Apps                    	| Rudder Stack               	| Rudder Stack                            	|
+| Dev_Platforms               	| APIs for Apps                    	| Sinch                      	| Sinch                                   	|
+| Dev_Platforms               	| APIs for Apps                    	| Stripe                     	| Stripe                                  	|
+| Dev_Platforms               	| APIs for Apps                    	| Tencent                    	| Short Message Service                   	|
+| Dev_Platforms               	| APIs for Apps                    	| Tipe.io                    	| Tipe.io                                 	|
+| Dev_Platforms               	| App Servers                      	| Amazon                     	| Application Integration                 	|
+| Dev_Platforms               	| App Servers                      	| Amazon                     	| Lambda                                  	|
+| Dev_Platforms               	| App Servers                      	| Amazon                     	| Elastic Container Service               	|
+| Dev_Platforms               	| App Servers                      	| Anyscale.io                	| Anyscale.io                             	|
+| Dev_Platforms               	| App Servers                      	| Apigee                     	| Apigee                                  	|
+| Dev_Platforms               	| App Servers                      	| BonitaSoft                 	| Bonita                                  	|
+| Dev_Platforms               	| App Servers                      	| Cleo                       	| Cleo                                    	|
+| Dev_Platforms               	| App Servers                      	| Cloudflare                 	| Cloudflare Workers                      	|
+| Dev_Platforms               	| App Servers                      	| Confluent                  	| Confluent                               	|
+| Dev_Platforms               	| App Servers                      	| Contentful                 	| Contentful                              	|
+| Dev_Platforms               	| App Servers                      	| Craft CMS                  	| Craft CMS                               	|
+| Dev_Platforms               	| App Servers                      	| Exo Platform               	| Exo Platform                            	|
+| Dev_Platforms               	| App Servers                      	| Hazelcast                  	| Hazelcast IMDG                          	|
+| Dev_Platforms               	| App Servers                      	| Kirby                      	| Kirby                                   	|
+| Dev_Platforms               	| App Servers                      	| Kong                       	| Kong                                    	|
+| Dev_Platforms               	| App Servers                      	| KrakenD                    	| KrakenD                                 	|
+| Dev_Platforms               	| App Servers                      	| Lightbend                  	| Lightbend                               	|
+| Dev_Platforms               	| App Servers                      	| MaidSafe.net               	| Maidsafe.net                            	|
+| Dev_Platforms               	| App Servers                      	| Molecula                   	| Molecula                                	|
+| Dev_Platforms               	| App Servers                      	| MongoDB                    	| Stitch                                  	|
+| Dev_Platforms               	| App Servers                      	| Nanovms                    	| nanovms                                 	|
+| Dev_Platforms               	| App Servers                      	| NodeSource                 	| NodeSource                              	|
+| Dev_Platforms               	| App Servers                      	| OneSignal                  	| OneSignal                               	|
+| Dev_Platforms               	| App Servers                      	| Oracle                     	| Apex                                    	|
+| Dev_Platforms               	| App Servers                      	| Progress Software          	| Data Connectivity and Integration       	|
+| Dev_Platforms               	| App Servers                      	| Progress Software          	| Managed File Transfer                   	|
+| Dev_Platforms               	| App Servers                      	| RapidPro                   	| RapidPro                                	|
+| Dev_Platforms               	| App Servers                      	| Runscope                   	| Runscope                                	|
+| Dev_Platforms               	| App Servers                      	| Software AG                	| Software AG                             	|
+| Dev_Platforms               	| App Servers                      	| Solace                     	| Solace                                  	|
+| Dev_Platforms               	| App Servers                      	| Synadia                    	| NATS                                    	|
+| Dev_Platforms               	| App Servers                      	| Temporal.io                	| Temporal.io                             	|
+| Dev_Platforms               	| App Servers                      	| Tencent                    	| Cloud                                   	|
+| Dev_Platforms               	| App Servers                      	| Tencent                    	| Serverless                              	|
+| Dev_Platforms               	| App Servers                      	| Tencent                    	| Cloud Message Queue                     	|
+| Dev_Platforms               	| App Servers                      	| Tibco                      	| Event-Driven Apps                       	|
+| Dev_Platforms               	| App Servers                      	| Tibco                      	| API-led Integration                     	|
+| Dev_Platforms               	| App Servers                      	| Triggermesh                	| Triggermesh                             	|
+| Dev_Platforms               	| App Servers                      	| WSO2                       	| WSO2                                    	|
+| Dev_Platforms               	| CaaS                             	| Caicloud                   	| Caicloud Compass                        	|
+| Dev_Platforms               	| CaaS                             	| Cisco                      	| Cisco Container Platform                	|
+| Dev_Platforms               	| CaaS                             	| Digital Ocean              	| Digital Ocean                           	|
+| Dev_Platforms               	| CaaS                             	| Docker                     	| Engine                                  	|
+| Dev_Platforms               	| CaaS                             	| Ericsson                   	| Ericsson Cloud Container Distribution   	|
+| Dev_Platforms               	| CaaS                             	| Fly.io                     	| Fly.io                                  	|
+| Dev_Platforms               	| CaaS                             	| Iron.io                    	| Iron.io                                 	|
+| Dev_Platforms               	| CaaS                             	| Kublr                      	| Kublr                                   	|
+| Dev_Platforms               	| CaaS                             	| Linode                     	| Linode                                  	|
+| Dev_Platforms               	| CaaS                             	| Loodse                     	| KubeOne                                 	|
+| Dev_Platforms               	| CaaS                             	| LunchBadger                	| Express Gateway                         	|
+| Dev_Platforms               	| CaaS                             	| Mirantis                   	| Mirantis Cloud Platform                 	|
+| Dev_Platforms               	| CaaS                             	| Portainer                  	| Portainer                               	|
+| Dev_Platforms               	| CaaS                             	| Section                    	| Section                                 	|
+| Dev_Platforms               	| CaaS                             	| Stackery                   	| Stackery                                	|
+| Dev_Platforms               	| CaaS                             	| Sylabs                     	| Singularity                             	|
+| Dev_Platforms               	| CaaS                             	| VEXXHOST                   	| VEXXHOST                                	|
+| Dev_Platforms               	| Low Code - App                   	| 8b Website Builder         	| 8b Website Builder                      	|
+| Dev_Platforms               	| Low Code - App                   	| 8cell                      	| Buildbox                                	|
+| Dev_Platforms               	| Low Code - App                   	| Adalo                      	| Adalo                                   	|
+| Dev_Platforms               	| Low Code - App                   	| Agiloft                    	| Agiloft                                 	|
+| Dev_Platforms               	| Low Code - App                   	| Alpha Software             	| Alpha Software                          	|
+| Dev_Platforms               	| Low Code - App                   	| AppGyver                   	| AppGyver                                	|
+| Dev_Platforms               	| Low Code - App                   	| Appian                     	| Appian                                  	|
+| Dev_Platforms               	| Low Code - App                   	| AppOnboard                 	| AppOnboard                              	|
+| Dev_Platforms               	| Low Code - App                   	| Appratio                   	| Appratio                                	|
+| Dev_Platforms               	| Low Code - App                   	| Aras                       	| Aras                                    	|
+| Dev_Platforms               	| Low Code - App                   	| Automattic                 	| Wordpress                               	|
+| Dev_Platforms               	| Low Code - App                   	| Betty Blocks               	| Betty Blocks                            	|
+| Dev_Platforms               	| Low Code - App                   	| Bildr                      	| Bildr                                   	|
+| Dev_Platforms               	| Low Code - App                   	| Boundless Labs             	| Boundless Labs                          	|
+| Dev_Platforms               	| Low Code - App                   	| Bubble                     	| Bubble                                  	|
+| Dev_Platforms               	| Low Code - App                   	| Budibase                   	| Budibase                                	|
+| Dev_Platforms               	| Low Code - App                   	| CA Technologies            	| Low Code                                	|
+| Dev_Platforms               	| Low Code - App                   	| Carrd.co                   	| Carrd.co                                	|
+| Dev_Platforms               	| Low Code - App                   	| Convertigo                 	| Convertigo                              	|
+| Dev_Platforms               	| Low Code - App                   	| CreateApp                  	| CreateApp                               	|
+| Dev_Platforms               	| Low Code - App                   	| Dadabik                    	| Dadabik                                 	|
+| Dev_Platforms               	| Low Code - App                   	| Disha                      	| Disha                                   	|
+| Dev_Platforms               	| Low Code - App                   	| Dronahq                    	| Dronahq                                 	|
+| Dev_Platforms               	| Low Code - App                   	| Famous Studio              	| Famous Studio                           	|
+| Dev_Platforms               	| Low Code - App                   	| Fliplet                    	| Fliplet                                 	|
+| Dev_Platforms               	| Low Code - App                   	| Glitch                     	| Glitch                                  	|
+| Dev_Platforms               	| Low Code - App                   	| Grapedrop                  	| Grapedrop                               	|
+| Dev_Platforms               	| Low Code - App                   	| Gstudioapp                 	| Gstudioapp                              	|
+| Dev_Platforms               	| Low Code - App                   	| Kodika.io                  	| Kodika.io                               	|
+| Dev_Platforms               	| Low Code - App                   	| Landen.co                  	| Landen.co                               	|
+| Dev_Platforms               	| Low Code - App                   	| Microsoft                  	| Power Automation                        	|
+| Dev_Platforms               	| Low Code - App                   	| Microweber                 	| Microweber                              	|
+| Dev_Platforms               	| Low Code - App                   	| Murkstom Sheet             	| Murkstom Sheet                          	|
+| Dev_Platforms               	| Low Code - App                   	| OnUniverse                 	| OnUniverse                              	|
+| Dev_Platforms               	| Low Code - App                   	| Oracle                     	| Oracle Apex                             	|
+| Dev_Platforms               	| Low Code - App                   	| Oracle                     	| Apex                                    	|
+| Dev_Platforms               	| Low Code - App                   	| OutSystems                 	| OutSystems                              	|
+| Dev_Platforms               	| Low Code - App                   	| Pramati Technologies       	| Wavemaker                               	|
+| Dev_Platforms               	| Low Code - App                   	| ReShuffle                  	| ReShuffle                               	|
+| Dev_Platforms               	| Low Code - App                   	| Retool                     	| Retool                                  	|
+| Dev_Platforms               	| Low Code - App                   	| Shoutem                    	| Shoutem                                 	|
+| Dev_Platforms               	| Low Code - App                   	| Siemens                    	| Mendix                                  	|
+| Dev_Platforms               	| Low Code - App                   	| Strikingly                 	| Strikingly                              	|
+| Dev_Platforms               	| Low Code - App                   	| Thunkable                  	| Thunkable                               	|
+| Dev_Platforms               	| Low Code - App                   	| Tibco                      	| Live Apps                               	|
+| Dev_Platforms               	| Low Code - App                   	| Unicorn Platform           	| Unicorn Platform                        	|
+| Dev_Platforms               	| Low Code - App                   	| Unqork                     	| Unqork                                  	|
+| Dev_Platforms               	| Low Code - App                   	| Versoly                    	| Versoly                                 	|
+| Dev_Platforms               	| Low Code - App                   	| Vertex9                    	| Carrd                                   	|
+| Dev_Platforms               	| Low Code - App                   	| Voiceflow                  	| Voiceflow                               	|
+| Dev_Platforms               	| Low Code - App                   	| Webflow                    	| Webflow                                 	|
+| Dev_Platforms               	| Low Code - App                   	| Weblium                    	| Weblium                                 	|
+| Dev_Platforms               	| Low Code - App                   	| Weebly                     	| Weebly                                  	|
+| Dev_Platforms               	| Low Code - App                   	| Zeroqode                   	| Zeroqode                                	|
+| Dev_Platforms               	| Low Code - App                   	| Zudy                       	| Zudy                                    	|
+| Dev_Platforms               	| Low Code - Backend               	| Anvil.Works                	| Anvil.Works                             	|
+| Dev_Platforms               	| Low Code - Backend               	| Arengu                     	| Arengu                                  	|
+| Dev_Platforms               	| Low Code - Backend               	| Busywork.co                	| Busywork.co                             	|
+| Dev_Platforms               	| Low Code - Backend               	| Dark                       	| Dark                                    	|
+| Dev_Platforms               	| Low Code - Backend               	| Elebase                    	| Elebase                                 	|
+| Dev_Platforms               	| Low Code - Backend               	| Paragon                    	| Paragon                                 	|
+| Dev_Platforms               	| Low Code - Backend               	| TextIt                     	| TextIt                                  	|
+| Dev_Platforms               	| Low Code - Backend               	| UsePrototype               	| UsePrototype                            	|
+| Dev_Platforms               	| Low Code - Business              	| Appsmith                   	| Appsmith                                	|
+| Dev_Platforms               	| Low Code - Business              	| Bryter                     	| Bryter                                  	|
+| Dev_Platforms               	| Low Code - Business              	| Chatamo                    	| Chatamo                                 	|
+| Dev_Platforms               	| Low Code - Business              	| DronaHQ                    	| DronaHQ                                 	|
+| Dev_Platforms               	| Low Code - Business              	| Parabola Labs              	| Parabola                                	|
+| Dev_Platforms               	| Low Code - Business              	| PhantomBuster              	| PhantomBuster                           	|
+| Dev_Platforms               	| Low Code - Business              	| StoryScript                	| StoryScript                             	|
+| Dev_Platforms               	| Low Code - Business              	| Zoho                       	| Zoho                                    	|
+| Dev_Platforms               	| Low Code - Data                  	| Actiondesk                 	| Actiondesk                              	|
+| Dev_Platforms               	| Low Code - Data                  	| Airtable                   	| Airtable                                	|
+| Dev_Platforms               	| Low Code - Data                  	| dashdash                   	| dashdash                                	|
+| Dev_Platforms               	| Low Code - Data                  	| Glide                      	| Glide                                   	|
+| Dev_Platforms               	| Low Code - Data                  	| Intersystems               	| IRIS Data Platform                      	|
+| Dev_Platforms               	| Low Code - Data                  	| Panoply                    	| Panoply                                 	|
+| Dev_Platforms               	| Low Code - Data                  	| Plotly                     	| Dash                                    	|
+| Dev_Platforms               	| Low Code - Data                  	| Sheet2Site                 	| Sheet2Site                              	|
+| Dev_Platforms               	| Low Code - Data                  	| Sheety                     	| Sheety                                  	|
+| Dev_Platforms               	| Low Code - Data                  	| Table2Site                 	| Table2Site                              	|
+| Dev_Platforms               	| Low Code - Workflow              	| Clay                       	| Clay                                    	|
+| Dev_Platforms               	| Low Code - Workflow              	| Fibery                     	| Fibery                                  	|
+| Dev_Platforms               	| Low Code - Workflow              	| IFTTT                      	| IFTTT                                   	|
+| Dev_Platforms               	| Low Code - Workflow              	| Integromat                 	| Integromat                              	|
+| Dev_Platforms               	| Low Code - Workflow              	| n8n.io                     	| n8n.io                                  	|
+| Dev_Platforms               	| Low Code - Workflow              	| OneGraph                   	| OneGraph                                	|
+| Dev_Platforms               	| Low Code - Workflow              	| Stdlib                     	| Stdlib                                  	|
+| Dev_Platforms               	| Low Code - Workflow              	| Tonkean                    	| Tonkean                                 	|
+| Dev_Platforms               	| Low Code - Workflow              	| Tray.io                    	| Tray.io                                 	|
+| Dev_Platforms               	| Low Code - Workflow              	| Workato                    	| Workato                                 	|
+| Dev_Platforms               	| Low Code - Workflow              	| Zapier                     	| Zapier                                  	|
+| Dev_Platforms               	| Low Code - Workflow              	| Zenaton                    	| Zenaton                                 	|
+| Dev_Platforms               	| PaaS                             	| 8Base                      	| 8Base                                   	|
+| Dev_Platforms               	| PaaS                             	| Acornsoft                  	| Cocktail Cloud                          	|
+| Dev_Platforms               	| PaaS                             	| Algorithmia                	| Algorithmia                             	|
+| Dev_Platforms               	| PaaS                             	| Altostra                   	| Altostra                                	|
+| Dev_Platforms               	| PaaS                             	| AppScale Systems           	| AppScale                                	|
+| Dev_Platforms               	| PaaS                             	| Artifakt                   	| Artifakt                                	|
+| Dev_Platforms               	| PaaS                             	| Atalaya                    	| Atalaya                                 	|
+| Dev_Platforms               	| PaaS                             	| Begin                      	| Serverless                              	|
+| Dev_Platforms               	| PaaS                             	| Crowdbotics                	| Crowdbotics                             	|
+| Dev_Platforms               	| PaaS                             	| Factom                     	| Harmony Integrate                       	|
+| Dev_Platforms               	| PaaS                             	| Flynn                      	| Flynn                                   	|
+| Dev_Platforms               	| PaaS                             	| Form.io                    	| Form.io                                 	|
+| Dev_Platforms               	| PaaS                             	| Foundryapp.co              	| Foundryapp.co                           	|
+| Dev_Platforms               	| PaaS                             	| Gatsby                     	| Gatsby                                  	|
+| Dev_Platforms               	| PaaS                             	| Google                     	| Google Cloud Functions                  	|
+| Dev_Platforms               	| PaaS                             	| H2O.ai                     	| H2O.ai                                  	|
+| Dev_Platforms               	| PaaS                             	| Hasura                     	| Hasura GraphQL Engine                   	|
+| Dev_Platforms               	| PaaS                             	| Midokura                   	| Midokura                                	|
+| Dev_Platforms               	| PaaS                             	| Mutable                    	| Mutable                                 	|
+| Dev_Platforms               	| PaaS                             	| Netlify                    	| Netlify Functions                       	|
+| Dev_Platforms               	| PaaS                             	| Nhost                      	| Nhost                                   	|
+| Dev_Platforms               	| PaaS                             	| Nimbella                   	| Nimbella                                	|
+| Dev_Platforms               	| PaaS                             	| Nowfloats                  	| Kitsune                                 	|
+| Dev_Platforms               	| PaaS                             	| Nuweba                     	| Nuweba                                  	|
+| Dev_Platforms               	| PaaS                             	| OpenFaaS                   	| OpenFaaS                                	|
+| Dev_Platforms               	| PaaS                             	| Outlyer                    	| Outlyer                                 	|
+| Dev_Platforms               	| PAAS                             	| Pantheon                   	| Pantheon                                	|
+| Dev_Platforms               	| PaaS                             	| Pipedream                  	| Pipedream                               	|
+| Dev_Platforms               	| PaaS                             	| Pivotal                    	| CloudFoundry                            	|
+| Dev_Platforms               	| PaaS                             	| Platform.sh                	| Platform.sh                             	|
+| Dev_Platforms               	| PaaS                             	| Platform9                  	| Fission                                 	|
+| Dev_Platforms               	| PaaS                             	| Progress Software          	| Kinvey                                  	|
+| Dev_Platforms               	| PaaS                             	| Qubole                     	| Qubole                                  	|
+| Dev_Platforms               	| PaaS                             	| Rafay                      	| Rafay                                   	|
+| Dev_Platforms               	| PaaS                             	| Render                     	| Render                                  	|
+| Dev_Platforms               	| PaaS                             	| Salesforce                 	| Heroku                                  	|
+| Dev_Platforms               	| PaaS                             	| Scalingo                   	| Scalingo                                	|
+| Dev_Platforms               	| PaaS                             	| Spotinst                   	| Spotinst Functions                      	|
+| Dev_Platforms               	| PaaS                             	| Talend                     	| Integration Cloud                       	|
+| Dev_Platforms               	| PaaS                             	| TeleStax                   	| Restcomm                                	|
+| Dev_Platforms               	| PaaS                             	| Twilio                     	| Twilio                                  	|
+| Dev_Platforms               	| PaaS                             	| Tyk                        	| Tyk                                     	|
+| Dev_Platforms               	| PaaS                             	| Vendia                     	| Vendia                                  	|
+| Dev_Platforms               	| PaaS                             	| Vercel                     	| Now                                     	|
+| Dev_Platforms               	| PaaS                             	| ZEIT                       	| Now                                     	|
+| Dev_Tooling                 	| Code IDE                         	| Blisk                      	| Blisk Browser                           	|
+| Dev_Tooling                 	| Code IDE                         	| CodistAI                   	| CodistAI                                	|
+| Dev_Tooling                 	| Code IDE                         	| Codota                     	| Codota                                  	|
+| Dev_Tooling                 	| Code IDE                         	| CreoLabs                   	| CreoLabs                                	|
+| Dev_Tooling                 	| Code IDE                         	| Embarcadero                	| RAD Builder                             	|
+| Dev_Tooling                 	| Code IDE                         	| Generato                   	| Generato                                	|
+| Dev_Tooling                 	| Code IDE                         	| Jetbrains                  	| IntelliJ                                	|
+| Dev_Tooling                 	| Code IDE                         	| Jetbrains                  	| AppCode                                 	|
+| Dev_Tooling                 	| Code IDE                         	| Jetbrains                  	| Clion                                   	|
+| Dev_Tooling                 	| Code IDE                         	| Jetbrains                  	| WebStorm                                	|
+| Dev_Tooling                 	| Code IDE                         	| Jetbrains                  	| DataGrip                                	|
+| Dev_Tooling                 	| Code IDE                         	| Jetbrains                  	| GoLand                                  	|
+| Dev_Tooling                 	| Code IDE                         	| Jetbrains                  	| PhpStorm                                	|
+| Dev_Tooling                 	| Code IDE                         	| Jetbrains                  	| PyCharm                                 	|
+| Dev_Tooling                 	| Code IDE                         	| Jetbrains                  	| Rider                                   	|
+| Dev_Tooling                 	| Code IDE                         	| Jetbrains                  	| RubyMine                                	|
+| Dev_Tooling                 	| Code IDE                         	| Kite                       	| Kite                                    	|
+| Dev_Tooling                 	| Code IDE                         	| Microsoft                  	| Visual Studio                           	|
+| Dev_Tooling                 	| Code IDE                         	| Modulz.app                 	| Modulz.app                              	|
+| Dev_Tooling                 	| Code IDE                         	| OnScale                    	| onscale                                 	|
+| Dev_Tooling                 	| Code IDE                         	| Perforce                   	| JRebel                                  	|
+| Dev_Tooling                 	| Code IDE                         	| Phase Change               	| Phase Change                            	|
+| Dev_Tooling                 	| Code IDE                         	| Pydev                      	| Pydev                                   	|
+| Dev_Tooling                 	| Code IDE                         	| RapidAPI                   	| RapidAPI                                	|
+| Dev_Tooling                 	| Code IDE                         	| Skaffolder                 	| Skaffolder                              	|
+| Dev_Tooling                 	| Code IDE                         	| SLAppForge                 	| Sigma                                   	|
+| Dev_Tooling                 	| Code IDE                         	| Source{d}                  	| Source{d}                               	|
+| Dev_Tooling                 	| Code IDE                         	| Stoplight                  	| Stoplight                               	|
+| Dev_Tooling                 	| Code IDE                         	| TimeSys                    	| Timestorm                               	|
+| Dev_Tooling                 	| Code IDE                         	| Webyog                     	| Webyog                                  	|
+| Dev_Tooling                 	| Design IDE                       	| ActiveState                	| Komodo IDE                              	|
+| Dev_Tooling                 	| Design IDE                       	| Adobe                      	| Dreamweaver                             	|
+| Dev_Tooling                 	| Design IDE                       	| Adobe                      	| XD                                      	|
+| Dev_Tooling                 	| Design IDE                       	| Axure RP                   	| Axure                                   	|
+| Dev_Tooling                 	| Design IDE                       	| BuilderX.io                	| BuilderX.io                             	|
+| Dev_Tooling                 	| Design IDE                       	| Draftbit                   	| Draftbit                                	|
+| Dev_Tooling                 	| Design IDE                       	| Draftium                   	| Draftium                                	|
+| Dev_Tooling                 	| Design IDE                       	| Elementor                  	| Elementor                               	|
+| Dev_Tooling                 	| Design IDE                       	| Eva                        	| Eva.Design                              	|
+| Dev_Tooling                 	| Design IDE                       	| Figma                      	| Figma                                   	|
+| Dev_Tooling                 	| Design IDE                       	| Flinto                     	| Flinto                                  	|
+| Dev_Tooling                 	| Design IDE                       	| Framer                     	| Framer                                  	|
+| Dev_Tooling                 	| Design IDE                       	| Gliffy                     	| gliffy                                  	|
+| Dev_Tooling                 	| Design IDE                       	| InVision                   	| InVision                                	|
+| Dev_Tooling                 	| Design IDE                       	| Modulz                     	| Modulz                                  	|
+| Dev_Tooling                 	| Design IDE                       	| Origami.design             	| Origami.design                          	|
+| Dev_Tooling                 	| Design IDE                       	| Percy                      	| Percy                                   	|
+| Dev_Tooling                 	| Design IDE                       	| Pingendo                   	| Pingendo                                	|
+| Dev_Tooling                 	| Design IDE                       	| Progress Software          	| Unite UX                                	|
+| Dev_Tooling                 	| Design IDE                       	| proto.io                   	| proto.io                                	|
+| Dev_Tooling                 	| Design IDE                       	| Protopie                   	| Protopie                                	|
+| Dev_Tooling                 	| Design IDE                       	| Readymag                   	| Readymag                                	|
+| Dev_Tooling                 	| Design IDE                       	| Relate.app                 	| Relate.app                              	|
+| Dev_Tooling                 	| Design IDE                       	| RStudio                    	| RStudio                                 	|
+| Dev_Tooling                 	| Design IDE                       	| Shots.ai                   	| Shots.ai                                	|
+| Dev_Tooling                 	| Design IDE                       	| Sketch                     	| Sketch                                  	|
+| Dev_Tooling                 	| Design IDE                       	| Studio.design              	| Studio.design                           	|
+| Dev_Tooling                 	| Design IDE                       	| Supernova                  	| Studio                                  	|
+| Dev_Tooling                 	| Design IDE                       	| Supernova Studio           	| Supernova Studio                        	|
+| Dev_Tooling                 	| Design IDE                       	| Swimm.io                   	| Swimm.io                                	|
+| Dev_Tooling                 	| Design IDE                       	| TeleportHQ                 	| TeleportHQ                              	|
+| Dev_Tooling                 	| Design IDE                       	| Uizard                     	| Uizard                                  	|
+| Dev_Tooling                 	| Design IDE                       	| UXPin                      	| UXPin                                   	|
+| Dev_Tooling                 	| Design IDE                       	| Visly                      	| Visly                                   	|
+| Dev_Tooling                 	| Design IDE                       	| Wappler                    	| Wappler                                 	|
+| Dev_Tooling                 	| Design IDE                       	| Webydo                     	| Webydo                                  	|
+| Dev_Tooling                 	| Design IDE                       	| Yotako                     	| Yotako                                  	|
+| Dev_Tooling                 	| Design IDE                       	| Zeplin                     	| Zeplin                                  	|
+| Dev_Tooling                 	| Design IDE                       	| Zeroheight                 	| Zeroheight                              	|
+| Dev_Tooling                 	| Dev Envs                         	| Amazon                     	| Cloud9 IDE                              	|
+| Dev_Tooling                 	| Dev Envs                         	| Appvia                     	| Appvia                                  	|
+| Dev_Tooling                 	| Dev Envs                         	| Coder                      	| Coder                                   	|
+| Dev_Tooling                 	| Dev Envs                         	| CodeSandbox                	| CodeSandbox                             	|
+| Dev_Tooling                 	| Dev Envs                         	| DevSpace                   	| DevSpace                                	|
+| Dev_Tooling                 	| Dev Envs                         	| Docker                     	| Desktop                                 	|
+| Dev_Tooling                 	| Dev Envs                         	| Env0                       	| Env0                                    	|
+| Dev_Tooling                 	| Dev Envs                         	| Figma                      	| WithFig                                 	|
+| Dev_Tooling                 	| Dev Envs                         	| Gitpod                     	| Gitpod                                  	|
+| Dev_Tooling                 	| Dev Envs                         	| LocalStack                 	| LocalStack                              	|
+| Dev_Tooling                 	| Dev Envs                         	| Perforce                   	| SourcePro                               	|
+| Dev_Tooling                 	| Dev Envs                         	| R2C                        	| Bento                                   	|
+| Dev_Tooling                 	| Dev Envs                         	| RedHat                     	| Codeready Workspaces                    	|
+| Dev_Tooling                 	| Dev Envs                         	| Repl.it                    	| Repl.it                                 	|
+| Dev_Tooling                 	| Dev Envs                         	| Subpoint Solutions         	| Subpoint Solutions                      	|
+| Dev_Tooling                 	| Dev Envs                         	| Windmill Engineering       	| Tilt                                    	|
+| Dev_Tooling                 	| Frameworks                       	| Amazon                     	| AWS Server Application Model (SAM)      	|
+| Dev_Tooling                 	| Frameworks                       	| Amazon                     	| Chalice                                 	|
+| Dev_Tooling                 	| Frameworks                       	| Anaconda                   	| Distribution                            	|
+| Dev_Tooling                 	| Frameworks                       	| Apollo                     	| Apollo                                  	|
+| Dev_Tooling                 	| Frameworks                       	| Architect.io               	| Architect.io                            	|
+| Dev_Tooling                 	| Frameworks                       	| Backpack for Laravel       	| Backpack for Laravel                    	|
+| Dev_Tooling                 	| Frameworks                       	| Blazingsql                 	| BlazingSQL                              	|
+| Dev_Tooling                 	| Frameworks                       	| Clovry                     	| Clovyr                                  	|
+| Dev_Tooling                 	| Frameworks                       	| Flexera Software           	| InstallShield                           	|
+| Dev_Tooling                 	| Frameworks                       	| Forest.io                  	| Forest.io                               	|
+| Dev_Tooling                 	| Frameworks                       	| Intuitics                  	| Intuitics                               	|
+| Dev_Tooling                 	| Frameworks                       	| Ionic                      	| Ionic                                   	|
+| Dev_Tooling                 	| Frameworks                       	| Jovo                       	| Jovo                                    	|
+| Dev_Tooling                 	| Frameworks                       	| Laravel                    	| Spark                                   	|
+| Dev_Tooling                 	| Frameworks                       	| Microsoft                  	| Dapr                                    	|
+| Dev_Tooling                 	| Frameworks                       	| Perforce                   	| Roguewave                               	|
+| Dev_Tooling                 	| Frameworks                       	| Phlyt.io                   	| Phlyt.io                                	|
+| Dev_Tooling                 	| Frameworks                       	| Prisma                     	| Prisma                                  	|
+| Dev_Tooling                 	| Frameworks                       	| Progress Software          	| Telerik                                 	|
+| Dev_Tooling                 	| Frameworks                       	| React Milkshake            	| React Milkshake                         	|
+| Dev_Tooling                 	| Frameworks                       	| Readme.io                  	| Readme.io                               	|
+| Dev_Tooling                 	| Frameworks                       	| Redgate                    	| .NET Developer Bundle                   	|
+| Dev_Tooling                 	| Frameworks                       	| Sails                      	| Sails                                   	|
+| Dev_Tooling                 	| Frameworks                       	| Sanity.io                  	| Sanity.io                               	|
+| Dev_Tooling                 	| Frameworks                       	| SensioLabs                 	| SensioLabs                              	|
+| Dev_Tooling                 	| Frameworks                       	| Serverless                 	| Serverless                              	|
+| Dev_Tooling                 	| Frameworks                       	| TailWindUI                 	| TailWindUI                              	|
+| Dev_Tooling                 	| Frameworks                       	| Tiny Cloud                 	| Tiny Cloud                              	|
+| Dev_Tooling                 	| Frameworks                       	| Truffle Suite              	| Truffle                                 	|
+| Dev_Tooling                 	| Frameworks                       	| UI Bakery                  	| UI Bakery                               	|
+| Dev_Tooling                 	| Frameworks                       	| Vaadin                     	| Vaadin                                  	|
+| Dev_Tooling                 	| Frameworks                       	| Visly.app                  	| Visly                                   	|
+| Dev_Tooling                 	| Frameworks                       	| XebiaLabs                  	| Mocha                                   	|
+| Dev_Tooling                 	| Languages                        	| ActiveState                	| Platform                                	|
+| Dev_Tooling                 	| Languages                        	| Aljabr                     	| Aljabr                                  	|
+| Dev_Tooling                 	| Languages                        	| Arrow                      	| Arrow                                   	|
+| Dev_Tooling                 	| Languages                        	| Azul                       	| Zing                                    	|
+| Dev_Tooling                 	| Languages                        	| Canonical                  	| GCC/CLANG                               	|
+| Dev_Tooling                 	| Languages                        	| COBOL-IT                   	| COBOL-IT                                	|
+| Dev_Tooling                 	| Languages                        	| Codeflow.co                	| Codeflow.co                             	|
+| Dev_Tooling                 	| Languages                        	| Genworks International     	| GDL                                     	|
+| Dev_Tooling                 	| Languages                        	| Julia Computing            	| Julia Computing                         	|
+| Dev_Tooling                 	| Languages                        	| MicroSabio                 	| A-Shell                                 	|
+| Dev_Tooling                 	| Languages                        	| Oracle                     	| Java                                    	|
+| Dev_Tooling                 	| Languages                        	| Perforce                   	| IMSL                                    	|
+| Dev_Tooling                 	| Languages                        	| Progress Software          	| NativeScript                            	|
+| Dev_Tooling                 	| SDKs                             	| Artifex                    	| Ghostscript                             	|
+| Dev_Tooling                 	| SDKs                             	| Authpack                   	| Authpack                                	|
+| Dev_Tooling                 	| SDKs                             	| Avocode                    	| Avocode                                 	|
+| Dev_Tooling                 	| SDKs                             	| Creative Tim               	| Creative Tim                            	|
+| Dev_Tooling                 	| SDKs                             	| Cruip                      	| Cruip                                   	|
+| Dev_Tooling                 	| SDKs                             	| Developer Express          	| DXperience                              	|
+| Dev_Tooling                 	| SDKs                             	| Divjoy                     	| Divjoy                                  	|
+| Dev_Tooling                 	| SDKs                             	| Factom                     	| Harmony Connect                         	|
+| Dev_Tooling                 	| SDKs                             	| Forest Admin               	| Forest Admin                            	|
+| Dev_Tooling                 	| SDKs                             	| Grape City                 	| ComponentOne                            	|
+| Dev_Tooling                 	| SDKs                             	| Infragistics               	| Infragistics                            	|
+| Dev_Tooling                 	| SDKs                             	| Kubos                      	| Kubos                                   	|
+| Dev_Tooling                 	| SDKs                             	| Mitek                      	| Veriff                                  	|
+| Dev_Tooling                 	| SDKs                             	| Ockam                      	| Ockam                                   	|
+| Dev_Tooling                 	| SDKs                             	| Pretty Easy Privacy        	| Pretty Easy Privacy                     	|
+| Dev_Tooling                 	| SDKs                             	| Progress Software          	| Kendo UI                                	|
+| Dev_Tooling                 	| SDKs                             	| QT Group                   	| QT Product Development                  	|
+| Dev_Tooling                 	| SDKs                             	| SoftSlate                  	| SoftSlate                               	|
+| Dev_Tooling                 	| SDKs                             	| TapTrack                   	| TapTrack Tag Management Platform        	|
+| Dev_Tooling                 	| SDKs                             	| Tendermint                 	| Tendermint Core                         	|
+| Dev_Tooling                 	| SDKs                             	| Tendermint                 	| Cosmos SDK                              	|
+| Dev_Tooling                 	| SDKs                             	| Tendermint                 	| IBC Protocol                            	|
+| Dev_Tooling                 	| SDKs                             	| Tibco                      	| Jaspersoft                              	|
+| Dev_Tooling                 	| SDKs                             	| WolfSSL                    	| WolfSSL                                 	|
+| Software_Delivery_Lifecycle 	| ChatOps                          	| Atlassian                  	| Confluence                              	|
+| Software_Delivery_Lifecycle 	| ChatOps                          	| Atlassian                  	| Trello                                  	|
+| Software_Delivery_Lifecycle 	| ChatOps                          	| GitLab                     	| Gitter                                  	|
+| Software_Delivery_Lifecycle 	| ChatOps                          	| Mattermost                 	| Mattermost                              	|
+| Software_Delivery_Lifecycle 	| ChatOps                          	| Microsoft                  	| Teams                                   	|
+| Software_Delivery_Lifecycle 	| ChatOps                          	| Slack                      	| Slack                                   	|
+| Software_Delivery_Lifecycle 	| Developer Enablement             	| Archipelo                  	| Archipelo                               	|
+| Software_Delivery_Lifecycle 	| Developer Enablement             	| Bountysource               	| Bountrysource                           	|
+| Software_Delivery_Lifecycle 	| Developer Enablement             	| Codility                   	| Codility                                	|
+| Software_Delivery_Lifecycle 	| Developer Enablement             	| Dev.to                     	| Dev.to                                  	|
+| Software_Delivery_Lifecycle 	| Developer Enablement             	| DevFlight                  	| Devflight                               	|
+| Software_Delivery_Lifecycle 	| Developer Enablement             	| Hack Reactor               	| Hack Reactor                            	|
+| Software_Delivery_Lifecycle 	| Developer Enablement             	| Openbase.io                	| Openbase.io                             	|
+| Software_Delivery_Lifecycle 	| Developer Enablement             	| PluralSight                	| PluralSight                             	|
+| Software_Delivery_Lifecycle 	| Developer Enablement             	| Secure Code Warrior        	| Secure Code Warrior                     	|
+| Software_Delivery_Lifecycle 	| Developer Enablement             	| SoloLearn                  	| SoloLearn                               	|
+| Software_Delivery_Lifecycle 	| Developer Enablement             	| Stack Exchange             	| Stack Exchange                          	|
+| Software_Delivery_Lifecycle 	| Developer Enablement             	| Synopsys                   	| eLearning                               	|
+| Software_Delivery_Lifecycle 	| Developer Enablement             	| Tidelift                   	| Tidelift                                	|
+| Software_Delivery_Lifecycle 	| Developer Enablement             	| XSCode                     	| XSCode                                  	|
+| Software_Delivery_Lifecycle 	| Engineering Efficiency           	| Allstacks                  	| Allstacks                               	|
+| Software_Delivery_Lifecycle 	| Engineering Efficiency           	| AnyStatus                  	| AnyStatus                               	|
+| Software_Delivery_Lifecycle 	| Engineering Efficiency           	| Cast Software              	| Application Intelligence Platform       	|
+| Software_Delivery_Lifecycle 	| Engineering Efficiency           	| Code Climate               	| Velocity                                	|
+| Software_Delivery_Lifecycle 	| Engineering Efficiency           	| Flexera Software           	| Usage Intelligence                      	|
+| Software_Delivery_Lifecycle 	| Engineering Efficiency           	| Gitalytics                 	| Gitalytics                              	|
+| Software_Delivery_Lifecycle 	| Engineering Efficiency           	| Jellyfish                  	| Jellyfish                               	|
+| Software_Delivery_Lifecycle 	| Engineering Efficiency           	| Lyfevest                   	| Lyfevest                                	|
+| Software_Delivery_Lifecycle 	| Engineering Efficiency           	| Merico                     	| Merico                                  	|
+| Software_Delivery_Lifecycle 	| Engineering Efficiency           	| Perforce                   	| Gliffy                                  	|
+| Software_Delivery_Lifecycle 	| Engineering Efficiency           	| Pinpoint                   	| Pinpoint                                	|
+| Software_Delivery_Lifecycle 	| Engineering Efficiency           	| Pluralsight                	| Gitprime                                	|
+| Software_Delivery_Lifecycle 	| Engineering Efficiency           	| Sleuth                     	| Sleuth                                  	|
+| Software_Delivery_Lifecycle 	| Engineering Efficiency           	| Stepsize                   	| Stepsize                                	|
+| Software_Delivery_Lifecycle 	| Engineering Efficiency           	| Waydev                     	| Waydev                                  	|
+| Software_Delivery_Lifecycle 	| Engineering Efficiency           	| XebiaLabs                  	| Intelligence                            	|
+| Software_Delivery_Lifecycle 	| Engineering Efficiency           	| XebiaLabs                  	| Stride                                  	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| Asana                      	| Asana                                   	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| Aha.io                     	| Aha.io                                  	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| Atlassian                  	| Jira Align                              	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| Atlassian                  	| Jira Core                               	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| Atlassian                  	| Jira Software                           	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| BugFeedr                   	| BugFeedr                                	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| Clubhouse                  	| Clubhouse                               	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| Coda                       	| Coda                                    	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| CollabNet                  	| VersionOne                              	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| Micro Focus                	| Project & Portfolio Management          	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| Miro                       	| Miro                                    	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| Nuclino                    	| Nuclino                                 	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| Perforce                   	| Helix ALM / Helix IM                    	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| Perforce                   	| HelixTeamHub                            	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| Perforce                   	| Hansoft                                 	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| Raycast                    	| Raycast                                 	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| Smartsheet                 	| Smartsheet                              	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| Tata Consultancy Services  	| ignio                                   	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| Tata Consultancy Services  	| Jile                                    	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| Tata Consultancy Services  	| TCS Mastercraft                         	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| Test Collab                	| Test Collab                             	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| workona                    	| workona                                 	|
+| Software_Delivery_Lifecycle 	| Project Mgmt. / Agile            	| Zenhub                     	| Zenhub                                  	|
+| Software_Delivery_Lifecycle 	| RPA for DevOps                   	| Atomist                    	| Atomist                                 	|
+| Software_Delivery_Lifecycle 	| RPA for DevOps                   	| Axiom.ai                   	| Axiom.ai                                	|
+| Software_Delivery_Lifecycle 	| RPA for DevOps                   	| Codestream                 	| Codestream                              	|
+| Software_Delivery_Lifecycle 	| RPA for DevOps                   	| CTO.ai                     	| CTO.ai                                  	|
+| Software_Delivery_Lifecycle 	| RPA for DevOps                   	| Devscore                   	| Devscore                                	|
+| Software_Delivery_Lifecycle 	| RPA for DevOps                   	| Internal.IO                	| Internal.IO                             	|
+| Software_Delivery_Lifecycle 	| RPA for DevOps                   	| iTMethods                  	| ITMethods                               	|
+| Software_Delivery_Lifecycle 	| RPA for DevOps                   	| Northflank                 	| Northflank                              	|
+| Software_Delivery_Lifecycle 	| RPA for DevOps                   	| Quali                      	| Quali                                   	|
+| Software_Delivery_Lifecycle 	| RPA for DevOps                   	| StackStorm                 	| StackStorm                              	|
+| Software_Delivery_Lifecycle 	| RPA for DevOps                   	| Tinkerware                 	| Workflow Automation Solution            	|
+| Software_Delivery_Lifecycle 	| RPA for DevOps                   	| Tricentis                  	| RPA                                     	|
+| Software_Delivery_Lifecycle 	| RPA for DevOps                   	| Wayscript                  	| Wayscript                               	|
+| Software_Delivery_Lifecycle 	| Value Stream Mgmt                	| Atlassian                  	| Jira Align                              	|
+| Software_Delivery_Lifecycle 	| Value Stream Mgmt                	| Blueprint                  	| Storyteller                             	|
+| Software_Delivery_Lifecycle 	| Value Stream Mgmt                	| Cloudbees                  	| Value Stream Management                 	|
+| Software_Delivery_Lifecycle 	| Value Stream Mgmt                	| ConnectAll                 	| ConnectAll Integration Platform         	|
+| Software_Delivery_Lifecycle 	| Value Stream Mgmt                	| Digital.ai                 	| Digital.ai                              	|
+| Software_Delivery_Lifecycle 	| Value Stream Mgmt                	| IBM                        	| Urbancode Velocity                      	|
+| Software_Delivery_Lifecycle 	| Value Stream Mgmt                	| Plutora                    	| Plutora                                 	|
+| Software_Delivery_Lifecycle 	| Value Stream Mgmt                	| ServiceNow                 	| DevOps and ITBM                         	|
+| Software_Delivery_Lifecycle 	| Value Stream Mgmt                	| TargetProcess              	| TargetProcess                           	|
+| Software_Delivery_Lifecycle 	| Value Stream Mgmt                	| Tasktop                    	| Tasktop                                 	|
