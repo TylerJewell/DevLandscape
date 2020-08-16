@@ -40,19 +40,19 @@ In the categories where we report analyst-provided revenues instead of our botto
 ## Analyst-Estimated Revenues vs. Bottoms-Up Estimations
 These are the segments where analyst-provided total revenues were taken instead of my bottoms-up estimation.
 
-#### Test Automation. 
+#### Test Automation
 Most analysts indicate that the products that drive test automation are anywhere from $8B to $15B in annual recurring revenues. We currently include those, however, my individual assessment of the vendors is roughly $3B annually. This is a huge difference that likely represents the value of professional services and outsourcing QE professionals that are being masked as recurring product revenues. For now, I am using the analyst's estimates, but will eventually replace the analyst's numbers with my own if I cannot uncover a more plausible reason for the discrepancy.
 
-#### Application Servers. 
+#### Application Servers
 Gartner has been tracking this for two decades and has a more comprehensive look then I can right now.
 
-#### Platform-as-a-Service. 
+#### Platform-as-a-Service
 Similar reasons.
 
-#### APIs. 
+#### APIs
 Remarkably, my bottoms-up analysis of revenues for businesses that monetize an API is almost identical to what the analysts count. However, we may both be significantly off as the total number of companies that I am tracking in this space is probably off significantly due to the long tail of offerings available but not easily discovered. I had hoped that someone like ProgrammableWeb, a directory of APIs, might have tagged APIs which are monetizable, but in consulting with their team, they found that APIs changed their nature too often and stopped tracking the monetization orientation of an individual API.
 
-#### Special Case: Low Code. 
+#### Special Case: Low Code
 In this case, I am using my bottoms-up analysis and not the values provided by analysts, which is $10-$12B higher than my estimates. Low Code is often applied to a wide range of products that have advanced scripting or configuration, which are not specific to application construction and this causes analysts to over inflate the nature of this market. For example, some analysts include Microsoft Excel in their calculations because of its macro language. This is silly.
 
 ## Category and Segment Definitions
@@ -60,34 +60,34 @@ The major buckets are called categories: Software Delivery Lifecycle (SDLC), Dev
 
 The categories and their segments were defined by grouping products that provided similar capabilities into buckets. This is not a perfect science. Some of the segments are so granular that certain vendors and products can exist in multiple segments. We have worked hard to avoid counting a vendor's revenue twice, and when a vendor could exist in multiple segments, their revenue is counted once in a segment that is the best overall fit.
 
-#### Software Delivery Lifecycle (SDLC). 
+#### Software Delivery Lifecycle (SDLC)
 Process solutions that coordinate how teams design, develop and test software. SDLC contains segments that create products - and in many cases services / solutions - that impact developers across the entire lifecycle of development. Conceptually, SDLC offerings are leveraged across DT, DI, and DP. 
 
 SDLC vendors monetize by selling corporate and individual SaaS subscriptions, on-premises software licenses and subscriptions, influence marketing such as recruiting and impression advertising, project and recurring professional services.
 
-#### Developer Tools (DT). 
+#### Developer Tools (DT)
 Individual (used by a single engineer) instruments used to facilitate software construction. 
 
 DT vendors monetize by selling vendor and individual SaaS subscriptions, on-premises software licenses and subscriptions, various open source software strategies including open core and extended support, and freemium models that charge for upgrades (or in many cases for purchasing other products often times in the DI / DP categories).
 
-#### Developer Infrastructure (DI). 
+#### Developer Infrastructure (DI)
 Hardware and software that support the distributed, repeatable construction of software. Some analysts call this the Software Delivery Supply Chain. If DT contains products targeted for the benefit of an individual developer, DI would be those solutions that a team of engineers would depend upon.
 
 DI vendors monetize by selling SaaS subscriptions measured across a variety of criteria (seats, servers, sockets, containers, projects, source code repositories, pipelines, compute consumption, storage consumption, etc), on-premises software licenses and subscriptions, various open source software strategies including open core and extended support, and freemium models that charge for upgrades. Of special note, there are estimates that the cost to operate the underlying infrastructure stack that is running DI products are up to 15% of the global compute / storage consumption. Companies that sell DI products and with an already-profitable compute / storage offering can drive (mostly) free DI offerings compensated as loss leaders compensated through higher compute consumption.
 
-#### Developer Platforms (DP). 
+#### Developer Platforms (DP)
 Developer-interfacing, code-first, and API-only runtimes. These are runtime products where the interface requires a software engineer, or the "assets" that are deployed into the runtime must be created by a developer.
 
 DP vendors monetize by selling pay-as-you go measured across a variety of criteria (per request, compute consumption, etc.), SaaS subscriptions measured across a variety of criteria (seats, servers, sockets, containers, projects, compute consumption, storage consumption, etc), on-premises software licenses and subscriptions, various open source software strategies including open core and extended support, and freemium models that charge for upgrades.
 
 ## Segment Overlaps
-#### SDKs + Application Servers. 
+#### SDKs + Application Servers
 I've included SDKs within this category as it's a broad term that encompasses many of the libraries and frameworks that developers include as they create software. Many SDK vendors choose to monetize in production, and while there is no duplicative vendors in SDKs vs. Application Servers, my selection of a product going into one category vs. the other is subjectively determined.
 
-#### CI + CD + Build Automation. 
+#### CI + CD + Build Automation
 We keep track of these three segments separately. However, it is increasingly the case that these products have overlapping functionality and it's getting harder to distinguish between the differences, though they do exist. 
 
-#### CI + CD + GitOps. 
+#### CI + CD + GitOps
 Increasingly, the CI/CD vendors are adding in forms of GitOps into their offerings. And many of the GitOps vendors describe their solutions as forms of CD. There seems to be a convergence of configuration management and CI/CD platforms. Currently, we keep the categories separated.
 
 #### Code and Application Security + Config + GitOps + CI + CD
@@ -97,34 +97,34 @@ Code and Application Security contains numerous sub-segments related to validati
 #### System Integrators (SIs) and Consultants. 
 This is a large and complex market. Measuring this would be ideal as it would offer various indicators on which technologies and products are growing or waning in influence.
 
-#### Data and Databases. 
+#### Data and Databases
 While many data products are selected by software engineers and architects as part of their application's design, and therefore, should be included in such a study, it is a heavily covered segment by many investors and analysts that I'd do poorly at reflecting. Additionally, it would be challenging to split hairs between those data products which are developer chosen, such as MySQL, often as part of product creation and those that are not developer-driven, such as Snowflake as a corporate cloud data warehouse.
 
-#### Managed Service Providers. 
+#### Managed Service Providers
 Vendors that host other vendors' products as a managed service are not included. While many SaaS offerings are included (and leverage other vendors technologies), those vendors are included if I felt there was a meaningful amount of intellectual property created to deliver the service. I understand that my interpretation can be arbitrary.
 
-#### Open Source Projects & Foundations. 
+#### Open Source Projects & Foundations
 Any individual segment might have 100s of additional open source projects that are shaping how it's evolving. Tracking these efforts would be challenging as the rate of change is high. This effort is a way to facilitate making better corporate decisions regarding developers and investments. Tracking for profit companies is a reflection of commitment and risk-taking which is a reflection on the overall impact similar technologies have on the industry.
 
-#### Training Outfits. 
+#### Training Outfits
 Organizations that are dedicated to training, whether instructor-led, Web-based, or other forms are not included in Developer Enablement. Developer Enablement speaks to non-traditional forms of developer engagement, usually tied to forms of community buidling like Stack Overflow or Product Hunt.
 
-#### No Code Offerings. 
+#### No Code Offerings
 There are some analysts that include products which include advanced forms of configuration, scripting, or macros as a form of low code or no code. For example, a SaaS app that generates marketing landing pages automatically without coding. This a great offering and many companies should buy this, but that is not a Low Code system for building apps or other business systems. 
 
-#### Data Science. 
+#### Data Science
 Most data science notebooks require models to be programmed. Data scientists are building their own significant technology and programmatic muscles, but are not included here for simplification. There are a number of startups which are working to make it simple for data science engineers to deliver machine learning capabilities as part of a software project. It may be appropriate to eventually incorporate these companies which are working to blend software engineering practices with data science workflows.
 
-#### MLOps. 
+#### MLOps
 Along the same vein as Data Science, MLOps is a new segment of vendors that automate the construction, deployment, monitoring and governance of ML models. The architecture and workflows of MLOps solutions are similar to the technologies provided in the Dev Infrastructure and DevOps segments, but oriented to the workflow of data science teams and the construction and maintenance of machine learning models. These offerings often intersect with the developer workflow and tooling, but are not developer-led within an organization. Organizations are seeing the rise of ML operations professionals who specialize in this area. For some interesting takes on MLOps landscape see LF AI Foundation, Fiddler's blog, Google's blog, Blumberg Capital, Toward Data Science, and TopBots.
 
-#### Some Vendor Products. 
+#### Some Vendor Products
 Some companies publish multiple products that perform similar, but different capabilities for a single segment. In some cases, the overlaps are significant enough where I count them as a single vendor / product. In other cases, the product's are distinct enough where a vendor would appear multiple times in a single category. For example, Cloudbees, has different CI and CD products, and each product is given its own line item in the same category. Cloudbees as a vendor would count as a single vendor for the segment, but there would be multiple products. In the case of CA, now owned by Broadcom, they positioning their offerings as solutions, using broad brand definition to span many different pieces of IP, and so I have to infer best demarcation judgment in determining where product boundaries exist.
 
-#### M&A Events. 
+#### M&A Events
 As developer-led businesses merge with other businesses (or discontinue operation), that is an industry change event. The number of vendors for a category may shrink, revenue allocations may change, and so on. While I update the database to reflect the new normal, I haven't kept an append log of each event, the date it occurred, and specific impacts. This would be a wonderful thing to add.
 
-#### Graphic Design. 
+#### Graphic Design
 Alas, while I have many talents, making things look good isn't one of them.
 
 ## Attributions
