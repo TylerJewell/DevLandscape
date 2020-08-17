@@ -52,6 +52,9 @@ The combination of Static Application Security Testing (SAST), Dynamic Applicati
 #### Segment: Engineering Efficiency
 Solutions that provide engineering intelligence to bring visibility and suggestions to improve software delivery. These solutions deliver insights that are consumed by all stakeholders, from engineers to product managers to business constituents to executives.
 
+#### Segment: Value Stream Management
+'Value Stream' is a term from the Lean Movement to describe the material and information flow to create value. It's the sequence of activities an organization undertakes to deliver on a customer need. Value stream management vendors provide solutions that increase the rate of flow for items moving through a value stream, usually by connecting and integrating numerous underlying developer and operations solutions. 
+
 ## Segment Overlaps
 #### SDKs + Application Servers
 I've included SDKs within this category as it's a broad term that encompasses many of the libraries and frameworks that developers include as they create software. Many SDK vendors choose to monetize in production, and while there is no duplicative vendors in SDKs vs. Application Servers, my selection of a product going into one category vs. the other is subjectively determined.
