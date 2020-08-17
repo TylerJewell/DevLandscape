@@ -47,7 +47,10 @@ DP vendors monetize by selling pay-as-you go measured across a variety of criter
 Solutions that automate the deployment and operations of developer tooling to increase the velocity of code to release while lowering the overhead associated with maintaining increasingly complex developer infrastructure.
 
 #### Segment: Code & Application Security
-The combination of Static Application Security Testing (SAST), Dynamic Application Security Testing (DAST), fuzzing, Software Composition Analysis (SCA), and Interactive Application Security Testing (IAST). These tools, while also used by security engineers, are often times developer-first. 
+The combination of Static Application Security Testing (SAST), Dynamic Application Security Testing (DAST), fuzzing, Software Composition Analysis (SCA), and Interactive Application Security Testing (IAST). These tools, while also used by security engineers, are often times developer-first.
+
+#### Segment: Engineering Efficiency
+Solutions that provide engineering intelligence to bring visibility and suggestions to improve software delivery. These solutions deliver insights that are consumed by all stakeholders, from engineers to product managers to business constituents to executives.
 
 ## Segment Overlaps
 #### SDKs + Application Servers
