@@ -149,7 +149,7 @@ In particular, Diana Kontsevaia deserves a special call out as she has (joyously
 
 **My VMWare Colleagues**: ….
 
-**Other Industry Colleagues**: Brad Murdoch (EVP, Lightbend), Tracy Ragan (CEO @ DeployHub), Paul Fremantle (Founder @ WSO2). Brad Micklea (VP @ RedHat).
+**Other Industry Colleagues**: Brad Murdoch (EVP, Lightbend), Tracy Ragan (CEO @ DeployHub), Paul Fremantle (Founder @ WSO2), Brad Micklea (VP @ RedHat), Helen Beal (DevOps Institute), Richard MacManus (TheNewStack).
 
 ## Learn About Developer Markets
 If you want to dive deeper into the developer rabbit hole, I recommend:
