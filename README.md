@@ -149,7 +149,7 @@ In particular, Diana Kontsevaia deserves a special call out as she has (joyously
 
 **My VMWare Colleagues**: ….
 
-**Other Industry Colleagues**: Brad Murdoch (EVP, Lightbend), Tracy Ragan (CEO @ DeployHub), Paul Fremantle (Founder @ WSO2), Brad Micklea (VP @ RedHat), Helen Beal (DevOps Institute), Richard MacManus (TheNewStack).
+**Other Industry Colleagues**: Brad Murdoch (EVP, Lightbend), Tracy Ragan (CEO @ DeployHub), Paul Fremantle (Founder @ WSO2), Brad Micklea (VP @ RedHat), Helen Beal (DevOps Institute), Richard MacManus (TheNewStack), Nish Bhalla (Angel Investor).
 
 ## Learn About Developer Markets
 If you want to dive deeper into the developer rabbit hole, I recommend:
@@ -158,6 +158,10 @@ If you want to dive deeper into the developer rabbit hole, I recommend:
 
 2. *"Agility Now: The Coming Battle for DevOps Supremacy"* by William Blair, published in November 2019 with contributions from Jason Ader, Bhavan Suri, Arjun Bhatia, David Griffin, Jonathan Ho, and Sebastien Naji. They have the most comprehensive articulation of the foundational technologies that are driving the DevOps movement. They also dwell more on the dynamics of "Last Mile" delivery with Continuous Delivery, how automation is driving a "Shift Left" in the toolchain, and the emergence of DevSecOps.
 
-3. The Redmonk blog and research feed. A small group of talented analysts out of Europe who write frequently on trends in programming languages, open source, and vendor dynamics. Most of their clients are vendors that are captured in this landscape.
+3. The [Redmonk blog and research feed](https://redmonk.com). A small group of talented analysts out of Europe who write frequently on trends in programming languages, open source, and vendor dynamics. Most of their clients are vendors that are captured in this landscape.
 
-4. TheNewStack.io has emerged as one of my favorite reading spots to get a feel for how different vendors are positioning underlying shifts in the industry. They are one of the few analyst publications focused on infrastructure that has a dedicated section to development.
+4. [TheNewStack.io](https://TheNewStack.io) has emerged as one of my favorite reading spots to get a feel for how different vendors are positioning underlying shifts in the industry. They are one of the few analyst publications focused on infrastructure that has a dedicated section to development.
+
+5. The [APIDays API Landscape by Mehdi Medjaoui](https://www.apidays.co/wp-content/uploads/2020/07/API-Landscape-2020.pdf) does an excellent job of capturing the different categories of infrastructre that go into supporting the API lifecycle.
+
+5. There are a variety of other VCs that sometimes write about developer markets, and their writings can offer insights not commonly seen elsewhere. This includes [Astasia Meyers' Memory Leak](https://medium.com/memory-leak/3-devops-trends-to-watch-in-2020-827f69475ff0) and [Nnamdi Iregbulem's WhoIsNnamdi](https://whoisnnamdi.com/).
