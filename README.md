@@ -164,4 +164,4 @@ If you want to dive deeper into the developer rabbit hole, I recommend:
 
 5. The [APIDays API Landscape by Mehdi Medjaoui](https://www.apidays.co/wp-content/uploads/2020/07/API-Landscape-2020.pdf) does an excellent job of capturing the different categories of infrastructre that go into supporting the API lifecycle.
 
-5. There are a variety of other VCs that sometimes write about developer markets, and their writings can offer insights not commonly seen elsewhere. This includes [Astasia Meyers' Memory Leak](https://medium.com/memory-leak/3-devops-trends-to-watch-in-2020-827f69475ff0) and [Nnamdi Iregbulem's WhoIsNnamdi](https://whoisnnamdi.com/).
+6. There are a variety of other VCs that sometimes write about developer markets, and their writings can offer insights not commonly seen elsewhere. This includes [Astasia Meyers' Memory Leak](https://medium.com/memory-leak/3-devops-trends-to-watch-in-2020-827f69475ff0) and [Nnamdi Iregbulem's WhoIsNnamdi](https://whoisnnamdi.com/).
