@@ -3,28 +3,30 @@ This is a list of every company whose products were sold to, purchase-influenced
 
 I call this the Developer-Led Landscape. 
 
-While there is a significant overlap with DevOps, the developer-led landscape looks at businesses that developers depend upon while DevOps excludes developer tools and includes operations products that are not part of a developer's workflow.
+While there is a significant overlap with DevOps, many DevOps usually excludes developer tooling (like design IDEs) while also including IT Operations not part of a developer's workflow (like network monitoring).
 
 This work is never finished. If you uncover an error, or want to make a contribution, please open a pull request. 
 
 # Definitions and Criteria
 ## What Is Measured
 
-This landscape only includes products that generate revenues. 
+This landscape only includes products that generate (or intend to generate) revenues. 
 
-The companies that make these products may (or not) have raised venture capital. This landscape does not include open source technologies, so the cumulative segment activity is broader than the landscape suggests.
+The companies that make these products may (or not) have raised venture capital. This landscape does not include open source projects, so the cumulative segment activity is broader than the landscape suggests.
 
-The landscape does not include System Integrators; however, it does include hosted offerings that impact developer productivity, such as Stack Overflow and a number of developer managed service offerings.
+Products listed may be downloadable, hosted as Software as a Service, or provided as a managed service offering. 
 
-## Category and Segment Definitions
-The major buckets are called categories: Software Delivery Lifecycle (SDLC), Developer Tools (DT), Developer Infrastructure (DI), and Developer Platforms (DP).  
+## Category, Segment, and Specialization Definitions
+The major buckets are called 'categories': Software Delivery Lifecycle (SDLC), Developer Tools (DT), Developer Infrastructure (DI), and Developer Platforms (DP).
 
-The segments were defined by grouping products that provided similar capabilities. Segmentation is not a exact science. Some segments are granular enough that products can exist in multiple segments. When a product can logically exist in multiple segments, it is listed in one segment (and therefore its revenues estimated once) that is the closesnt to the product's value propositions.
+Products that provide similar capabilities are grouped into 'specializations'. Depending upon the nature of the specialization, we sometimes can apply verticalization (ie, what was done for API as a Product), or can apply horizontally (ie, what was done for App Servers). Specialization is not an exact science. Some are granular enough that products can exist in multiple specializations and categories. When a product can logically exist in multiple places, it is listed in one place that we feel is closest to the product's value proposition.
 
-We include segment definitions on this page for segments whose definition is not broadly understood.
+'segments' are groupings of products across different specializations used for aggregate reporting. When different specializations are closely related, they are grouped into a segment. 
+
+We provide definitions for categories, segments, and specializations when they are not already widely accepted, or where our definition deviates from norms.
 
 #### Category: Software Delivery Lifecycle (SDLC)
-Process solutions that coordinate how teams design, develop and test software. SDLC contains segments that create products - and in many cases services / solutions - that impact developers across the entire lifecycle of development. Conceptually, SDLC offerings are leveraged across DT, DI, and DP. 
+Process solutions that coordinate how teams design, develop and test software. SDLC contains segments that create products - and in many cases services / solutions - that impact developers across the entire lifecycle of development. Conceptually, SDLC offerings are leveraged across Developer Tooling, Developer Infrastructure, and Developer Platforms. 
 
 SDLC vendors monetize by selling corporate and individual SaaS subscriptions, on-premises software licenses and subscriptions, influence marketing such as recruiting and impression advertising, project and recurring professional services.
 
@@ -46,7 +48,7 @@ DP vendors monetize by selling pay-as-you go measured across a variety of criter
 #### Segment: RPA for DevOps
 Solutions that automate the deployment and operations of developer tooling to increase the velocity of code to release while lowering the overhead associated with maintaining increasingly complex developer infrastructure.
 
-#### Segment: Code & Application Security
+#### Segment: Code + Application Security
 The combination of Static Application Security Testing (SAST), Dynamic Application Security Testing (DAST), fuzzing, Software Composition Analysis (SCA), and Interactive Application Security Testing (IAST). These tools, while also used by security engineers, are often times developer-first.
 
 #### Segment: Engineering Efficiency
@@ -66,9 +68,21 @@ We keep track of these three segments separately. However, it is increasingly th
 Increasingly, the CI/CD vendors are adding in forms of GitOps into their offerings. And many of the GitOps vendors describe their solutions as forms of CD. There seems to be a convergence of configuration management and CI/CD platforms. Currently, we keep the categories separated.
 
 #### Code and Application Security + Config + GitOps + CI + CD
-Code and Application Security contains numerous sub-segments related to validating and testing code and systems. The market considers Static Application Security Testing (SAST), Dynamic Application Security Testing (DAST), fuzzing, Software Composition Analysis (SCA), and Interactive Application Security Testing (IAST). We do not include Runtime Application Security Protection (RASP) in our categories. These capabilities are often lightly provided within products that also offer configuration management, GitOps, CI, or CD. Companies that primarily provide code and application security solutions are placed into this category, whereas companies that tangentially offer these solutions are listed in other categories. 
+Code and Application Security contains numerous sub-segments related to validating and testing code and systems. The market considers Static Application Security Testing (SAST), Dynamic Application Security Testing (DAST), fuzzing, Software Composition Analysis (SCA), and Interactive Application Security Testing (IAST). We do not include Runtime Application Security Protection (RASP) in our categories. These capabilities are often lightly provided within products that also offer configuration management, GitOps, CI, or CD. Companies that primarily provide code and application security solutions are placed into this category, whereas companies that tangentially offer these solutions are listed in other categories.
 
-## What Is Not Included (and Why)
+#### Application Servers + PaaS
+The lines between hosted offering and downloadable software have blurred. Application servers are platforms for developers to build and run their applications in any environment. Platform as a Service products are hosted platforms for building and running those same applications. Many vendors are increasingly providing both - a downloadable application server that is also hosted as a PaaS. There are many companies that could arguably fit in either segment. A company ends up in the segment where we think most of their revenues are generated.
+
+#### API as a Product + PaaS
+A number of the vendors that provide an API as a Product offering are also a PaaS, especially in the integration PaaS and communication PaaS areas. Most of the iPaaS vendors are included in the PaaS segment because they require customers to create software systems deployed and hosted within the vendor's cloud. Most of the cPaaS vendors are included in the API as a Product segment because most of the software leverages callable APIs. This dynamic also appears frequently with headless CMS vendors, which are providing forms of APIs for managing content and PaaS for hosting content.
+
+#### Low Code + PaaS
+A few vendors are providing low code workflow solutions optimized for integration. This looks a lot like an iPaaS. Some of the iPaaS vendors are increasingly suggesting tha they are low code or no code. It could be subjective as to whether a product lands in the Low Code or PaaS segment.
+
+#### Special Case: API Specializations
+We noticed that many of the vendors provide functional products that specialize exclusively in APIs. This exists for IDEs, test automation, security, gateways. We provide specializations in these segments for the vendors that deliver API-only variants.
+
+## What Is Not Included
 #### System Integrators (SIs) and Consultants. 
 This is a large and complex market. Measuring this would be ideal as it would offer various indicators on which technologies and products are growing or waning in influence.
 
@@ -93,6 +107,9 @@ Most data science notebooks require models to be programmed. Data scientists are
 #### MLOps
 Along the same vein as Data Science, MLOps is a new segment of vendors that automate the construction, deployment, monitoring and governance of ML models. The architecture and workflows of MLOps solutions are similar to the technologies provided in the Dev Infrastructure and DevOps segments, but oriented to the workflow of data science teams and the construction and maintenance of machine learning models. These offerings often intersect with the developer workflow and tooling, but are not developer-led within an organization. Organizations are seeing the rise of ML operations professionals who specialize in this area. For some interesting takes on MLOps landscape see LF AI Foundation, Fiddler's blog, Google's blog, Blumberg Capital, Toward Data Science, and TopBots.
 
+#### Blockchain
+For the same reasons that data science and MLOps are excluded. 
+
 #### Some Vendor Products
 Some companies publish multiple products that perform similar, but different capabilities for a single segment. In some cases, the overlaps are significant enough where I count them as a single vendor / product. In other cases, the product's are distinct enough where a vendor would appear multiple times in a single category. For example, Cloudbees, has different CI and CD products, and each product is given its own line item in the same category. Cloudbees as a vendor would count as a single vendor for the segment, but there would be multiple products. In the case of CA, now owned by Broadcom, they positioning their offerings as solutions, using broad brand definition to span many different pieces of IP, and so I have to infer best demarcation judgment in determining where product boundaries exist.
 
@@ -102,43 +119,35 @@ As developer-led businesses merge with other businesses (or discontinue operatio
 #### Graphic Design
 Alas, while I have many talents, making things look good isn't one of them.
 
-## Segment Revenues and Growth
-In most segments, we have a (fairly) complete list of companies that have revenue-generating product(s). In these segments, we use the aggregate revenues from across all of the vendors to determine the segment's revenue. 
+## Revenue and Growth Estimations
+In most segments, we have a (fairly) complete list of companies that have revenue-generating product(s). In these segments, we use the aggregate revenues from across all products to determine a segment's revenue. 
 
-We make an estimate of only recurring revenue, and where possible, try to exclude one-time revenue such as the professional services attached to selling a product. To calculate the growth rate, we compare the segment's total current annually recurring revenue with the same measure from a year ago. I only use public sources of information (# of employees, investment raised, and corporate blog posts) to make an ARR estimate for a company. 
+We make an estimate of recurring revenue, and where possible, try to exclude one-time revenue such as the professional services attached to selling a product. To calculate the growth rate, we compare the segment's total current annually recurring revenue with the same measure from a year ago. I only use public sources of information (# of employees, investment raised, and corporate blog posts) to make an ARR estimate for a company. 
 
 If a vendor sells a single product whose features span multiple segments, we count the revenues for that single product in a single segment. For example, Gitlab, which sells a single platform offering which covers many of the segments across Dev Infrastructure.
 
-There are some segments where it's difficult to make an estimate or to get a complete list of vendors. It's fortunate that these segments are usually (very well) covered by industry analysts. In these limited cases, we use the totals provided by the analysts and note the categories where appropriate.
+There are some segments where the major analysts have estimates which are significant deviations (much higher!) from ours. We note and discuss the segments where major deviations exist.
 
-Of special note is the Application Server and Platform as a Service categories, both of which have analysts that have been tracking those revenues for an extended period of time. In the case of Gartner, they have been tracking the Application Server segment annually for over 20 years. Much of the recurring revenues are generated by support and maintenance on legacy runtimes, so while the highlight number may be worth some skepticism, it's makeup and evolution since 2000 is grounded in a careful study of the market.
+#### Test Automation: $2.6B (us) vs. $12.6B (analysts)
+Holy guacamole, Batman! Despite our best efforts, we couldn't find more than $2.6B in software sales related to testing. We think the analysts are including large consultancies (body shops) in their numbers. The $10B discrepancy is a reflection of how much automation can still contribute to software construction.
+
+#### Application Servers: $12.5B (us) vs. $32B (analysts)
+Aye Carumba! $20B could buy a lot of salsa for Taco Tuesday. Gartner's definition of application servers includes some PaaS, blockchain, digital experience, MLOps, and databases. If you included data warehouses and data lakes as part of the database category, that would explain a large chunk of the $20B. 
+
+Gartner has been tracking the Application Server segment annually for over 20 years. Much of the recurring revenues are generated by support and maintenance on legacy runtimes. It's possible that we are dramatically under counting some legacy revenues. Oracle and IBM have a lot of old, proprietary stuff hanging around that customers must still pay for.
+
+#### PaaS: $5.26B (us) vs. $19B (analysts)
+Don't spit out those Wheaties! The analysts include infrastructure cloud services such as compute, storage, and ingres/egres capabilities which are programmable by developers, but not part of the classic definition of a PaaS. 
+
+#### Low Code: $2.2B (us) vs. $15B (analysts)
+Hotter than blue blazes! No code is included in analyst estimates, which might account for some of the revenues. But we think that a lot of productivity solutions like Google Sheets, which have macro capabilities are increasingly getting lumped into the analyst numbers as a way to inflate or exaggerate the importance of the low code phenomenon. 
 
 ## Vendor Count
-The number of companies in a segment is measured only through our bottoms-up collection of vendors that have a product in that segment.
+The number of companies in a segment is measured through our bottoms-up collection of vendors that have a product in that segment.
 
 The same vendor can (and often does) show up in multiple segments. 
 
 We've worked to avoid double counting revenues, even though the same vendor can appear in multiple segments. 
-
-In the categories where we report analyst-provided revenues instead of our bottoms-up calculation, the total number of companies is still calculated from our bottoms-up analysis. In situations where the analysts are reporting recurring revenues much higher than our own, we may be dramatically under reporting the total number of companies on the market, including Test Automation, Application Servers, Platform-as-a-Service, Low Code.
-
-## Analyst-Estimated Revenues vs. Bottoms-Up Estimations
-These are the segments where analyst-provided total revenues were taken instead of my bottoms-up estimation.
-
-#### Test Automation
-Most analysts indicate that the products that drive test automation are anywhere from $8B to $15B in annual recurring revenues. We currently include those, however, my individual assessment of the vendors is roughly $3B annually. This is a huge difference that likely represents the value of professional services and outsourcing QE professionals that are being masked as recurring product revenues. For now, I am using the analyst's estimates, but will eventually replace the analyst's numbers with my own if I cannot uncover a more plausible reason for the discrepancy.
-
-#### Application Servers
-Gartner has been tracking this for two decades and has a more comprehensive look then I can right now.
-
-#### Platform-as-a-Service
-Similar reasons.
-
-#### APIs
-Remarkably, my bottoms-up analysis of revenues for businesses that monetize an API is almost identical to what the analysts count. However, we may both be significantly off as the total number of companies that I am tracking in this space is probably off significantly due to the long tail of offerings available but not easily discovered. I had hoped that someone like ProgrammableWeb, a directory of APIs, might have tagged APIs which are monetizable, but in consulting with their team, they found that APIs changed their nature too often and stopped tracking the monetization orientation of an individual API.
-
-#### Special Case: Low Code
-In this case, I am using my bottoms-up analysis and not the values provided by analysts, which is $10-$12B higher than my estimates. Low Code is often applied to a wide range of products that have advanced scripting or configuration, which are not specific to application construction and this causes analysts to over inflate the nature of this market. For example, some analysts include Microsoft Excel in their calculations because of its macro language. This is silly.
 
 ## Attributions
 There are many people who influence my thinking on the subject, and in many cases, have also directly contributed to this research. Thank you for the support, intellectual thoughts, and any future contributions you might make.
@@ -164,4 +173,4 @@ If you want to dive deeper into the developer rabbit hole, I recommend:
 
 5. The [APIDays API Landscape by Mehdi Medjaoui](https://www.apidays.co/wp-content/uploads/2020/07/API-Landscape-2020.pdf) does an excellent job of capturing the different categories of infrastructre that go into supporting the API lifecycle.
 
-6. There are a variety of other VCs that sometimes write about developer markets, and their writings can offer insights not commonly seen elsewhere. This includes [Astasia Meyers' Memory Leak](https://medium.com/memory-leak/3-devops-trends-to-watch-in-2020-827f69475ff0) and [Nnamdi Iregbulem's WhoIsNnamdi](https://whoisnnamdi.com/).
+6. There are other VCs that sometimes write about developer markets, and their writings can offer insights not commonly seen elsewhere. This includes [Astasia Meyers' Memory Leak](https://medium.com/memory-leak/3-devops-trends-to-watch-in-2020-827f69475ff0) and [Nnamdi Iregbulem's WhoIsNnamdi](https://whoisnnamdi.com/).
