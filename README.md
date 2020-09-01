@@ -126,6 +126,8 @@ We make an estimate of recurring revenue, and where possible, try to exclude one
 
 If a vendor sells a single product whose features span multiple segments, we count the revenues for that single product in a single segment. For example, Gitlab, which sells a single platform offering which covers many of the segments across Dev Infrastructure.
 
+Any analysis that references a publicly traded company is either a company that is listed directly on a public stock exchange or is owned by a publicly traded company and still doing business under it's original brand. So, GitHub would be listed as a publicly traded company, but Pivotal would not.
+
 There are some segments where the major analysts have estimates which are significant deviations (much higher!) from ours. We note and discuss the segments where major deviations exist.
 
 #### Test Automation: $2.6B (us) vs. $12.6B (analysts)
