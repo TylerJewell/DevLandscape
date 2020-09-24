@@ -670,6 +670,7 @@
 | Dev_Platforms               	| PaaS                        	| PaaS - App                       	| Google                     	| App Engine                              	|
 | Dev_Platforms               	| PaaS                        	| PaaS - App                       	| IBM                        	| IBM PaaS                                	|
 | Dev_Platforms               	| PaaS                        	| PaaS - App                       	| Microsoft                  	| Azure Web Apps                          	|
+| Dev_Platforms               	| PaaS                        	| PaaS - App                      	| Nhost                      	| Nhost                                   	|
 | Dev_Platforms               	| PaaS                        	| PaaS - App                       	| Nowfloats                  	| Kitsune                                 	|
 | Dev_Platforms               	| PaaS                        	| PaaS - App                       	| Pivotal                    	| CloudFoundry                            	|
 | Dev_Platforms               	| PaaS                        	| PaaS - App                       	| Platform.sh                	| Platform.sh                             	|
@@ -720,7 +721,6 @@
 | Dev_Platforms               	| PaaS                        	| PaaS - Content                   	| Infopark                   	| Scrivito                                	|
 | Dev_Platforms               	| PaaS                        	| PaaS - Content                   	| Kentico                    	| Kontent                                 	|
 | Dev_Platforms               	| PaaS                        	| PaaS - Content                   	| Netlify                    	| Netlify Platform                        	|
-| Dev_Platforms               	| PaaS                        	| PaaS - Content                   	| Nhost                      	| Nhost                                   	|
 | Dev_Platforms               	| PaaS                        	| PaaS - Content                   	| Storyblok                  	| Storyblok                               	|
 | Dev_Platforms               	| PaaS                        	| PaaS - Content                   	| Zesty.io                   	| Zesty.io                                	|
 | Dev_Platforms               	| PaaS                        	| PaaS - Data                      	| Algorithmia                	| Algorithmia                             	|
