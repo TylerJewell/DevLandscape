@@ -168,6 +168,7 @@
 | Dev Infrastructure          	| Config + GitOps             	| Config + GitOps                  	| Chef Software              	| Automate                                	|
 | Dev Infrastructure          	| Config + GitOps             	| Config + GitOps                  	| Chef Software              	| Infra                                   	|
 | Dev Infrastructure          	| Config + GitOps             	| Config + GitOps                  	| Chef Software              	| Habitat                                 	|
+| Dev Infrastructure          	| Config + GitOps             	| Config + GitOps                  	| Cloudify Platform          	| Cloudify                                  	|
 | Dev Infrastructure          	| Config + GitOps             	| Config + GitOps                  	| CloudSkiff                 	| CloudSkiff                              	|
 | Dev Infrastructure          	| Config + GitOps             	| Config + GitOps                  	| ConfigCat                  	| ConfigCat                               	|
 | Dev Infrastructure          	| Config + GitOps             	| Config + GitOps                  	| Datawire                   	| Ambassador                              	|
