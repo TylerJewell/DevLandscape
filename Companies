@@ -6,7 +6,7 @@
 | Dev Infrastructure          	| Artifact Repository         	| Artifact Repository              	| Cloudrepo                  	| Cloudrepo                               	|
 | Dev Infrastructure          	| Artifact Repository         	| Artifact Repository              	| Cloudsmith                 	| Cloudsmith                              	|
 | Dev Infrastructure          	| Artifact Repository         	| Artifact Repository              	| Docker                     	| Hub                                     	|
-| Dev Infrastructure          	| Artifact Repository         	|                                  	| GitHub                     	| npm                                     	|
+| Dev Infrastructure          	| Artifact Repository         	| Artifact Repository              	| GitHub                     	| npm                                     	|
 | Dev Infrastructure          	| Artifact Repository         	| Artifact Repository              	| GitHub                     	| Package Registry                        	|
 | Dev Infrastructure          	| Artifact Repository         	| Artifact Repository              	| Gitlab                     	| Repository                              	|
 | Dev Infrastructure          	| Artifact Repository         	| Artifact Repository              	| Google                     	| Artifact and Container Registry         	|
