@@ -183,7 +183,7 @@
 | Dev Infrastructure          	| Config + GitOps             	| Config + GitOps                  	| PerfectSense               	| Gyro                                    	|
 | Dev Infrastructure          	| Config + GitOps             	| Config + GitOps                  	| Pulumi                     	| Pulumi                                  	|
 | Dev Infrastructure          	| Config + GitOps             	| Config + GitOps                  	| Puppet                     	| Puppet Enterprise                       	|
-| Dev Infrastructure          	| Config + GitOps             	| Config + GitOps                  	| RedHat                     	| Ansible                                 	|
+| Dev Infrastructure          	| Config + GitOps             	| Config + GitOps                  	| Red Hat                    	| Ansible                                 	|
 | Dev Infrastructure          	| Config + GitOps             	| Config + GitOps                  	| Replicated                 	| Ship                                    	|
 | Dev Infrastructure          	| Config + GitOps             	| Config + GitOps                  	| SaltStack                  	| SaltStack Enterprise                    	|
 | Dev Infrastructure          	| Config + GitOps             	| Config + GitOps                  	| ServiceNow                 	| Change Automation                       	|
@@ -523,7 +523,7 @@
 | Dev Platforms               	| App Servers                 	| App Servers - API                	| MuleSoft                   	| API Management                          	|
 | Dev Platforms               	| App Servers                 	| App Servers - API                	| NDGIT                      	| NDGIT                                   	|
 | Dev Platforms               	| App Servers                 	| App Servers - API                	| Nevatech                   	| Sentinet                                	|
-| Dev Platforms               	| App Servers                 	| App Servers - API                	| RedHat                     	| 3Scale                                  	|
+| Dev Platforms               	| App Servers                 	| App Servers - API                	| Red Hat                    	| 3Scale                                  	|
 | Dev Platforms               	| App Servers                 	| App Servers - API                	| Seeburger                  	| API Management                          	|
 | Dev Platforms               	| App Servers                 	| App Servers - API                	| Tibco                      	| API-led Integration Mashery             	|
 | Dev Platforms               	| App Servers                 	| App Servers - API                	| Tyk                        	| Tyk                                     	|
@@ -539,7 +539,7 @@
 | Dev Platforms               	| App Servers                 	| App Servers - App                	| Oracle                     	| Tuxedo                                  	|
 | Dev Platforms               	| App Servers                 	| App Servers - App                	| Qubole                     	| Qubole                                  	|
 | Dev Platforms               	| App Servers                 	| App Servers - App                	| RapidPro                   	| RapidPro                                	|
-| Dev Platforms               	| App Servers                 	| App Servers - App                	| RedHat                     	| JBoss                                   	|
+| Dev Platforms               	| App Servers                 	| App Servers - App                	| Red Hat                    	| JBoss                                   	|
 | Dev Platforms               	| App Servers                 	| App Servers - App                	| Supabase                   	| Supabase                                	|
 | Dev Platforms               	| App Servers                 	| App Servers - App                	| Tesobe                     	| Open Bank Project                       	|
 | Dev Platforms               	| App Servers                 	| App Servers - BPM                	| BonitaSoft                 	| Bonita                                  	|
@@ -572,7 +572,7 @@
 | Dev Platforms               	| App Servers                 	| App Servers - Integration        	| OneSignal                  	| OneSignal                               	|
 | Dev Platforms               	| App Servers                 	| App Servers - Integration        	| Progress Software          	| Data Connectivity and Integration       	|
 | Dev Platforms               	| App Servers                 	| App Servers - Integration        	| Progress Software          	| Managed File Transfer                   	|
-| Dev Platforms               	| App Servers                 	| App Servers - Integration        	| RedHat                     	| Fuse                                    	|
+| Dev Platforms               	| App Servers                 	| App Servers - Integration        	| Red Hat                    	| Fuse                                    	|
 | Dev Platforms               	| App Servers                 	| App Servers - Integration        	| Seeburger                  	| Business Integration Suite              	|
 | Dev Platforms               	| App Servers                 	| App Servers - Integration        	| Software AG                	| webMethods                              	|
 | Dev Platforms               	| App Servers                 	| App Servers - Integration        	| Solace                     	| Solace                                  	|
@@ -896,7 +896,7 @@
 | Dev Tooling                 	| Dev Envs                    	| Dev Envs                         	| Perforce                   	| SourcePro                               	|
 | Dev Tooling                 	| Dev Envs                    	| Dev Envs                         	| Porter                     	| Porter                                  	|
 | Dev Tooling                 	| Dev Envs                    	| Dev Envs                         	| R2C                        	| Bento                                   	|
-| Dev Tooling                 	| Dev Envs                    	| Dev Envs                         	| RedHat                     	| Codeready Workspaces                    	|
+| Dev Tooling                 	| Dev Envs                    	| Dev Envs                         	| Red Hat                    	| Codeready Workspaces                    	|
 | Dev Tooling                 	| Dev Envs                    	| Dev Envs                         	| Repl.it                    	| Repl.it                                 	|
 | Dev Tooling                 	| Dev Envs                    	| Dev Envs                         	| Subpoint Solutions         	| Subpoint Solutions                      	|
 | Dev Tooling                 	| Dev Envs                    	| Dev Envs                         	| Windmill Engineering       	| Tilt                                    	|
