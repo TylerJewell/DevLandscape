@@ -5,7 +5,15 @@ I call this the Developer-Led Landscape. 
 
 While there is a significant overlap with DevOps, many DevOps usually excludes developer tooling (like design IDEs) while also including IT Operations not part of a developer's workflow (like network monitoring).
 
-This work is never finished. If you uncover an error, or want to make a contribution, please open a pull request. 
+[Public Database](https://docs.google.com/spreadsheets/d/1M_LFJ6DxBmlkuQuipVwA9qBWRMm6Z7M1zJ1EONe6K-I/edit#gid=2068363245)
+
+[Announcement Blog](https://tylerjewell.substack.com/p/the-developer-led-landscape-20-08-28)
+
+  [Announcement LI Discussion](https://www.linkedin.com/posts/tylerjewell_the-developer-led-landscape-activity-6714579551651020800-O_nC)
+
+  [Announcement Reddit Discussion](https://www.reddit.com/r/devops/comments/iyepg3/developerled_landscape_800_companies_1000/)
+  
+[Cloud Native Development Blog](https://tylerjewell.substack.com/p/developer-led-landscape-cloud-native)
 
 # Definitions and Criteria
 ## What Is Measured
