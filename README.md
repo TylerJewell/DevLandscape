@@ -85,7 +85,7 @@ The lines between hosted offering and downloadable software have blurred. Applic
 A number of the vendors that provide an API as a Product offering are also a PaaS, especially in the integration PaaS and communication PaaS areas. Most of the iPaaS vendors are included in the PaaS segment because they require customers to create software systems deployed and hosted within the vendor's cloud. Most of the cPaaS vendors are included in the API as a Product segment because most of the software leverages callable APIs. This dynamic also appears frequently with headless CMS vendors, which are providing forms of APIs for managing content and PaaS for hosting content.
 
 #### Low Code + PaaS
-A few vendors are providing low code workflow solutions optimized for integration. This looks a lot like an iPaaS. Some of the iPaaS vendors are increasingly suggesting tha they are low code or no code. It could be subjective as to whether a product lands in the Low Code or PaaS segment.
+A few vendors are providing low code workflow solutions optimized for integration. This looks a lot like an iPaaS. Some of the iPaaS vendors are increasingly suggesting that they are low code or no code. It could be subjective as to whether a product lands in the Low Code or PaaS segment.
 
 #### Special Case: API Specializations
 We noticed that many of the vendors provide functional products that specialize exclusively in APIs. This exists for IDEs, test automation, security, gateways. We provide specializations in these segments for the vendors that deliver API-only variants.
@@ -107,7 +107,7 @@ Any individual segment might have 100s of additional open source projects that a
 Organizations that are dedicated to training, whether instructor-led, Web-based, or other forms are not included in Developer Enablement. Developer Enablement speaks to non-traditional forms of developer engagement, usually tied to forms of community buidling like Stack Overflow or Product Hunt.
 
 #### No Code Offerings
-There are some analysts that include products which include advanced forms of configuration, scripting, or macros as a form of low code or no code. For example, a SaaS app that generates marketing landing pages automatically without coding. This a great offering and many companies should buy this, but that is not a Low Code system for building apps or other business systems. 
+There are some analysts that include products which include advanced forms of configuration, scripting, or macros as a form of low code or no code. For example, a SaaS app that generates marketing landing pages automatically without coding. This is a great offering and many companies should buy this, but that is not a Low Code system for building apps or other business systems. 
 
 #### Data Science
 Most data science notebooks require models to be programmed. Data scientists are building their own significant technology and programmatic muscles, but are not included here for simplification. There are a number of startups which are working to make it simple for data science engineers to deliver machine learning capabilities as part of a software project. It may be appropriate to eventually incorporate these companies which are working to blend software engineering practices with data science workflows.
